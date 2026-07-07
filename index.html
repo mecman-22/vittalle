@@ -189,6 +189,29 @@
     font-family:'JetBrains Mono',monospace; font-size:9px; color:rgba(255,255,255,0.75);
   }
 
+  /* --- GALLERY --- */
+  .gallery{ padding-top:110px; }
+  .gallery-grid{
+    display:grid; grid-template-columns:repeat(4,1fr); gap:14px;
+  }
+  @media (max-width:980px){ .gallery-grid{ grid-template-columns:repeat(2,1fr); } }
+  @media (max-width:520px){ .gallery-grid{ grid-template-columns:1fr; } }
+  .gallery-item{
+    position:relative; overflow:hidden; border-radius:2px; aspect-ratio:3/4;
+    background:var(--ink);
+  }
+  .gallery-item img{
+    width:100%; height:100%; object-fit:cover; object-position:top center;
+    transition:transform .5s ease;
+  }
+  .gallery-item:hover img{ transform:scale(1.06); }
+  .gallery-item .cap{
+    position:absolute; left:0; right:0; bottom:0; padding:14px 16px;
+    background:linear-gradient(0deg, rgba(27,31,42,0.88), transparent);
+    color:var(--ivory); font-family:'JetBrains Mono',monospace; font-size:10.5px;
+    letter-spacing:0.05em; text-transform:uppercase;
+  }
+
   /* --- LOCATION / CTA --- */
   .location{
     margin-top:130px; background:var(--ink); color:var(--ivory);
@@ -249,6 +272,7 @@
       <a href="#servicos">Serviços</a>
       <a href="#processo">Processo</a>
       <a href="#tecidos">Tecidos</a>
+      <a href="#portfolio">Portfólio</a>
       <a href="#local">Loja</a>
     </nav>
     <a class="cta-btn" href="https://wa.me/5521967085203" target="_blank" rel="noopener">Agendar prova</a>
@@ -360,6 +384,26 @@
       <div class="swatch" style="background:#232323;">Preto</div>
       <div class="swatch" style="background:#8C9AAE; color:#1B1F2A;">Cinza claro</div>
       <div class="swatch" style="background:#A87C3F;">Caramelo</div>
+    </div>
+  </section>
+
+  <section class="gallery" id="portfolio">
+    <div class="section-head">
+      <div>
+        <span class="tag">Portfólio</span>
+        <h2>Peças que já saíram daqui</h2>
+      </div>
+      <p>Uma seleção do que construímos — cada peça pode ser replicada ou adaptada sob medida para você.</p>
+    </div>
+    <div class="gallery-grid">
+      <div class="gallery-item"><img src="img/costume-1783-preto.jpg" alt="Terno preto Vittalle Speciale"><div class="cap">Ref. 1783 · Preto</div></div>
+      <div class="gallery-item"><img src="img/costume-1783-marinho.jpg" alt="Terno marinho Vittalle Speciale"><div class="cap">Ref. 1783 · Marinho</div></div>
+      <div class="gallery-item"><img src="img/costume-1783-azul-royal.jpg" alt="Terno azul royal Vittalle Speciale"><div class="cap">Ref. 1783 · Azul Royal</div></div>
+      <div class="gallery-item"><img src="img/costume-oxford-1792-preto.jpg" alt="Terno oxford preto Vittalle Speciale"><div class="cap">Oxford · Preto</div></div>
+      <div class="gallery-item"><img src="img/costume-malha-1916-preto.jpg" alt="Terno malha preto Vittalle Speciale"><div class="cap">Malha · Preto</div></div>
+      <div class="gallery-item"><img src="img/costume-la-1795-01.jpg" alt="Terno de lã Vittalle Speciale"><div class="cap">100% Lã · Marinho</div></div>
+      <div class="gallery-item"><img src="img/costume-tropical-1777-06.jpg" alt="Terno tropical Vittalle Speciale"><div class="cap">Tropical · Marinho</div></div>
+      <div class="gallery-item"><img src="img/colete-218-preto.jpg" alt="Colete Vittalle Speciale"><div class="cap">Colete · Preto</div></div>
     </div>
   </section>
 
