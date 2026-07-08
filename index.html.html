@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vittalle Speciale — Alfaiataria Sob Medida | Shopping Nova Iguaçu</title>
+<meta name="description" content="Alfaiataria sob medida no Shopping Nova Iguaçu. Ternos, blazers e esporte fino feitos à mão, com corte exclusivo para cada cliente.">
+<meta property="og:title" content="Vittalle Speciale — Alfaiataria Sob Medida">
+<meta property="og:description" content="Ternos, blazers e esporte fino sob medida. Shopping Nova Iguaçu, Piso 1.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#1B1F2A;
+    --ivory:#EDE7DC;
+    --brass:#A87C3F;
+    --burgundy:#6E2A32;
+    --paper:#F6F2E9;
+    --ink-soft:#3A3F4C;
+    --line: rgba(27,31,42,0.14);
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'Inter',sans-serif;
+    font-weight:400;
+    overflow-x:hidden;
+  }
+  h1,h2,h3{font-family:'Fraunces',serif; font-weight:500; letter-spacing:-0.01em;}
+  .mono{font-family:'JetBrains Mono',monospace; letter-spacing:0.04em; text-transform:uppercase;}
+  a{color:inherit; text-decoration:none;}
+  img{max-width:100%; display:block;}
+
+  /* --- Measuring tape signature rail --- */
+  .tape-rail{
+    position:fixed; left:0; top:0; bottom:0; width:52px;
+    background:var(--ink); z-index:50;
+    display:flex; flex-direction:column; align-items:center;
+    padding:22px 0;
+  }
+  .tape-rail .brand-mark{
+    writing-mode: vertical-rl;
+    font-family:'Fraunces',serif; font-style:italic; font-size:13px;
+    color:var(--brass); letter-spacing:0.08em; margin-bottom:20px;
+  }
+  .tape-ticks{ flex:1; width:100%; position:relative; }
+  .tick{
+    position:absolute; left:0; width:100%;
+    display:flex; align-items:center; justify-content:center;
+    font-family:'JetBrains Mono',monospace; font-size:9px; color:rgba(237,231,220,0.35);
+    cursor:pointer; transition:color .25s ease;
+  }
+  .tick:hover, .tick.active{ color:var(--brass); }
+  .tick::before{
+    content:""; position:absolute; left:8px; width:10px; height:1px; background:currentColor;
+  }
+  .tick::after{
+    content:""; position:absolute; right:8px; width:10px; height:1px; background:currentColor;
+  }
+
+  @media (max-width: 780px){
+    .tape-rail{ display:none; }
+  }
+
+  .wrap{ margin-left:52px; }
+  @media (max-width: 780px){ .wrap{ margin-left:0; } }
+
+  section{ padding:0 8vw; }
+
+  /* --- NAV --- */
+  header.top{
+    display:flex; align-items:center; justify-content:space-between;
+    padding:26px 8vw; position:sticky; top:0; z-index:40;
+    background:rgba(246,242,233,0.86); backdrop-filter: blur(10px);
+    border-bottom:1px solid var(--line);
+  }
+  .logo{ font-family:'Fraunces',serif; font-size:20px; letter-spacing:0.02em; }
+  .logo em{ color:var(--brass); font-style:italic; }
+  nav.links{ display:flex; gap:34px; }
+  nav.links a{ font-size:13px; letter-spacing:0.06em; text-transform:uppercase; font-weight:500; }
+  .cta-btn{
+    background:var(--ink); color:var(--ivory); padding:11px 22px;
+    font-size:13px; letter-spacing:0.05em; text-transform:uppercase;
+    border-radius:2px; transition:background .2s ease;
+  }
+  .cta-btn:hover{ background:var(--burgundy); }
+  @media (max-width:780px){ nav.links{ display:none; } }
+
+  /* --- HERO --- */
+  .hero{
+    min-height:92vh; display:flex; flex-direction:column; justify-content:center;
+    position:relative; padding-top:60px; padding-bottom:60px;
+  }
+  .hero .eyebrow{
+    font-size:12px; color:var(--burgundy); margin-bottom:22px;
+    display:flex; align-items:center; gap:12px;
+  }
+  .hero .eyebrow::before{ content:""; width:34px; height:1px; background:var(--burgundy); }
+  .hero h1{
+    font-size:clamp(2.6rem, 6.4vw, 5.6rem);
+    line-height:0.98; max-width:15ch;
+  }
+  .hero h1 .ital{ font-style:italic; color:var(--brass); font-weight:400; }
+  .hero .sub{
+    margin-top:28px; max-width:44ch; font-size:17px; line-height:1.6; color:var(--ink-soft);
+  }
+  .hero .actions{ margin-top:40px; display:flex; gap:18px; flex-wrap:wrap; }
+  .btn-primary{
+    background:var(--burgundy); color:var(--ivory); padding:15px 30px;
+    font-size:13px; letter-spacing:0.06em; text-transform:uppercase; border-radius:2px;
+    transition:transform .2s ease, background .2s ease;
+  }
+  .btn-primary:hover{ background:var(--ink); transform:translateY(-2px); }
+  .btn-ghost{
+    border:1px solid var(--ink); padding:15px 30px;
+    font-size:13px; letter-spacing:0.06em; text-transform:uppercase; border-radius:2px;
+  }
+  .btn-ghost:hover{ background:var(--ink); color:var(--ivory); }
+
+  .hero-measure{
+    position:absolute; right:8vw; top:50%; transform:translateY(-50%);
+    display:flex; flex-direction:column; align-items:flex-end; gap:6px;
+    font-family:'JetBrains Mono',monospace; font-size:11px; color:var(--ink-soft);
+  }
+  @media (max-width: 980px){ .hero-measure{ display:none; } }
+  .hero-measure .num{ font-size:64px; font-family:'Fraunces',serif; color:var(--ink); line-height:1; font-weight:300; }
+  .hero-measure .label{ letter-spacing:0.08em; text-transform:uppercase; }
+
+  /* --- MARQUEE STRIP --- */
+  .strip{
+    border-top:1px solid var(--line); border-bottom:1px solid var(--line);
+    padding:16px 0; overflow:hidden; white-space:nowrap; background:var(--ink);
+  }
+  .strip .track{ display:inline-flex; animation: scroll 28s linear infinite; }
+  .strip span{
+    font-family:'Fraunces',serif; font-style:italic; font-size:18px; color:rgba(237,231,220,0.55);
+    padding:0 36px; display:inline-block;
+  }
+  .strip span.on{ color:var(--brass); font-style:normal; font-family:'JetBrains Mono',monospace; font-size:12px; letter-spacing:0.08em;}
+  @keyframes scroll{ from{transform:translateX(0);} to{transform:translateX(-50%);} }
+
+  /* --- SECTION HEADER --- */
+  .section-head{
+    display:flex; justify-content:space-between; align-items:flex-end;
+    margin-bottom:52px; padding-top:110px; gap:24px; flex-wrap:wrap;
+  }
+  .section-head h2{ font-size:clamp(1.8rem,3.4vw,2.8rem); max-width:14ch; }
+  .section-head .tag{
+    font-family:'JetBrains Mono',monospace; font-size:12px; color:var(--brass);
+    text-transform:uppercase; letter-spacing:0.08em; margin-bottom:14px; display:block;
+  }
+  .section-head p{ max-width:34ch; color:var(--ink-soft); font-size:15px; line-height:1.6; }
+
+  /* --- SERVICES / PORTFOLIO --- */
+  .grid-services{
+    display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:1px;
+    background:var(--line); border:1px solid var(--line);
+  }
+  .service-card{
+    background:var(--paper); padding:38px 30px; position:relative;
+    transition:background .25s ease;
+  }
+  .service-card:hover{ background:var(--ivory); }
+  .service-card .idx{ font-family:'JetBrains Mono',monospace; font-size:11px; color:var(--brass); }
+  .service-card h3{ font-size:22px; margin-top:18px; margin-bottom:12px; }
+  .service-card p{ font-size:14px; color:var(--ink-soft); line-height:1.6; }
+
+  /* --- PROCESS (measuring steps, real sequence so numbering is justified) --- */
+  .process{ padding-top:110px; }
+  .process-list{ border-top:1px solid var(--line); }
+  .process-item{
+    display:grid; grid-template-columns:80px 1fr 1.2fr; gap:30px;
+    padding:34px 0; border-bottom:1px solid var(--line); align-items:start;
+  }
+  .process-item .pnum{ font-family:'JetBrains Mono',monospace; color:var(--brass); font-size:14px; padding-top:4px;}
+  .process-item h3{ font-size:22px; }
+  .process-item p{ color:var(--ink-soft); font-size:14.5px; line-height:1.65; }
+  @media (max-width:700px){ .process-item{ grid-template-columns:1fr; gap:10px; } }
+
+  /* --- SWATCHES / fabric strip --- */
+  .swatches{ padding-top:110px; }
+  .swatch-row{ display:flex; gap:14px; margin-top:34px; flex-wrap:wrap; }
+  .swatch{
+    width:88px; height:88px; border-radius:3px; position:relative;
+    display:flex; align-items:flex-end; padding:8px;
+    font-family:'JetBrains Mono',monospace; font-size:9px; color:rgba(255,255,255,0.75);
+  }
+
+  /* --- GALLERY --- */
+  .gallery{ padding-top:110px; }
+  .gallery-grid{
+    display:grid; grid-template-columns:repeat(4,1fr); gap:14px;
+  }
+  @media (max-width:980px){ .gallery-grid{ grid-template-columns:repeat(2,1fr); } }
+  @media (max-width:520px){ .gallery-grid{ grid-template-columns:1fr; } }
+  .gallery-item{
+    position:relative; overflow:hidden; border-radius:2px; aspect-ratio:3/4;
+    background:var(--ink);
+  }
+  .gallery-item img{
+    width:100%; height:100%; object-fit:cover; object-position:top center;
+    transition:transform .5s ease;
+  }
+  .gallery-item:hover img{ transform:scale(1.06); }
+  .gallery-item .cap{
+    position:absolute; left:0; right:0; bottom:0; padding:14px 16px;
+    background:linear-gradient(0deg, rgba(27,31,42,0.88), transparent);
+    color:var(--ivory); font-family:'JetBrains Mono',monospace; font-size:10.5px;
+    letter-spacing:0.05em; text-transform:uppercase;
+  }
+  .gallery-item{ cursor:zoom-in; }
+
+  /* --- LIGHTBOX --- */
+  .lightbox{
+    position:fixed; inset:0; background:rgba(27,31,42,0.94); z-index:100;
+    display:none; align-items:center; justify-content:center; padding:5vh 5vw;
+  }
+  .lightbox.open{ display:flex; }
+  .lightbox img{
+    max-height:90vh; max-width:min(90vw,600px); object-fit:contain;
+    border-radius:2px; box-shadow:0 30px 80px rgba(0,0,0,0.5);
+  }
+  .lightbox .lb-cap{
+    position:absolute; bottom:28px; left:50%; transform:translateX(-50%);
+    color:var(--ivory); font-family:'JetBrains Mono',monospace; font-size:12px;
+    letter-spacing:0.06em; text-transform:uppercase;
+  }
+  .lightbox .lb-close{
+    position:absolute; top:24px; right:32px; color:var(--ivory);
+    font-family:'JetBrains Mono',monospace; font-size:13px; letter-spacing:0.06em;
+    cursor:pointer; text-transform:uppercase; border:1px solid rgba(237,231,220,0.3);
+    padding:8px 16px; border-radius:2px;
+  }
+  .lightbox .lb-close:hover{ background:rgba(237,231,220,0.1); }
+
+  /* --- LOCATION / CTA --- */
+  .location{
+    margin-top:130px; background:var(--ink); color:var(--ivory);
+    padding:90px 8vw; display:grid; grid-template-columns:1.1fr 0.9fr; gap:60px;
+  }
+  @media (max-width:820px){ .location{ grid-template-columns:1fr; padding:60px 8vw; } }
+  .location h2{ color:var(--ivory); font-size:clamp(1.8rem,3.6vw,3rem); max-width:12ch; }
+  .location .tag{ color:var(--brass); font-family:'JetBrains Mono',monospace; font-size:12px; text-transform:uppercase; letter-spacing:0.08em; display:block; margin-bottom:16px;}
+  .location .details{ margin-top:30px; font-size:15px; line-height:2; color:rgba(237,231,220,0.85); }
+  .location .details b{ color:var(--ivory); font-weight:500; }
+  .loc-actions{ display:flex; gap:16px; margin-top:34px; flex-wrap:wrap; }
+  .btn-light{
+    background:var(--brass); color:var(--ink); padding:15px 28px; font-size:13px;
+    letter-spacing:0.05em; text-transform:uppercase; border-radius:2px; transition:opacity .2s;
+  }
+  .btn-light:hover{ opacity:0.85; }
+  .btn-outline-light{
+    border:1px solid rgba(237,231,220,0.4); color:var(--ivory); padding:15px 28px;
+    font-size:13px; letter-spacing:0.05em; text-transform:uppercase; border-radius:2px;
+  }
+  .btn-outline-light:hover{ border-color:var(--ivory); }
+  .hours{ border-top:1px solid rgba(237,231,220,0.18); margin-top:34px; padding-top:24px; }
+  .hours-row{ display:flex; justify-content:space-between; font-size:13.5px; padding:6px 0; color:rgba(237,231,220,0.75); }
+
+  footer{
+    padding:40px 8vw; display:flex; justify-content:space-between; align-items:center;
+    font-size:12px; color:var(--ink-soft); flex-wrap:wrap; gap:12px;
+  }
+  footer .socials{ display:flex; gap:20px; }
+  footer .socials a{ text-transform:uppercase; letter-spacing:0.06em; font-family:'JetBrains Mono',monospace; }
+  footer .socials a:hover{ color:var(--burgundy); }
+
+  ::selection{ background:var(--brass); color:var(--ink); }
+  @media (prefers-reduced-motion: reduce){
+    html{ scroll-behavior:auto; }
+    .strip .track{ animation:none; }
+  }
+</style>
+</head>
+<body>
+
+<div class="tape-rail">
+  <div class="brand-mark">VITTALLE SPECIALE</div>
+  <div class="tape-ticks" id="tapeTicks">
+    <div class="tick" data-target="#topo" style="top:0%">0</div>
+    <div class="tick" data-target="#servicos" style="top:22%">10</div>
+    <div class="tick" data-target="#processo" style="top:44%">20</div>
+    <div class="tick" data-target="#tecidos" style="top:66%">30</div>
+    <div class="tick" data-target="#local" style="top:88%">40</div>
+  </div>
+</div>
+
+<div class="wrap">
+
+  <header class="top" id="topo">
+    <div class="logo">Vittalle <em>Speciale</em></div>
+    <nav class="links">
+      <a href="#servicos">Serviços</a>
+      <a href="#processo">Processo</a>
+      <a href="#tecidos">Tecidos</a>
+      <a href="#portfolio">Portfólio</a>
+      <a href="#local">Loja</a>
+    </nav>
+    <a class="cta-btn" href="https://wa.me/5521967085203" target="_blank" rel="noopener">Agendar prova</a>
+  </header>
+
+  <section class="hero">
+    <div class="eyebrow mono">Alfaiataria sob medida — Rio de Janeiro</div>
+    <h1>O corte é <span class="ital">seu</span>.<br>O resto é ofício.</h1>
+    <p class="sub">Ternos, blazers e esporte fino construídos peça por peça, sobre as suas medidas — não as de um manequim. Da primeira prova ao acabamento final, cada detalhe é decidido junto com você.</p>
+    <div class="actions">
+      <a class="btn-primary" href="https://wa.me/5521967085203" target="_blank" rel="noopener">Marcar uma prova</a>
+      <a class="btn-ghost" href="#servicos">Ver o que fazemos</a>
+    </div>
+    <div class="hero-measure">
+      <div class="num">217</div>
+      <div class="label">peças no portfólio</div>
+    </div>
+  </section>
+
+  <div class="strip">
+    <div class="track">
+      <span>Sob medida</span><span class="on">SHOPPING NOVA IGUAÇU · PISO 1</span>
+      <span>Esporte fino</span><span class="on">DESDE A PRIMEIRA PROVA</span>
+      <span>Acabamento à mão</span><span class="on">21 96708-5203</span>
+      <span>Sob medida</span><span class="on">SHOPPING NOVA IGUAÇU · PISO 1</span>
+      <span>Esporte fino</span><span class="on">DESDE A PRIMEIRA PROVA</span>
+      <span>Acabamento à mão</span><span class="on">21 96708-5203</span>
+    </div>
+  </div>
+
+  <section id="servicos">
+    <div class="section-head">
+      <div>
+        <span class="tag">O que fazemos</span>
+        <h2>Cada peça, uma decisão sua</h2>
+      </div>
+      <p>Do terno de cerimônia ao esporte fino do dia a dia — construção sob medida em cada categoria.</p>
+    </div>
+    <div class="grid-services">
+      <div class="service-card">
+        <div class="idx mono">01</div>
+        <h3>Ternos &amp; Blazers</h3>
+        <p>Corte estruturado sob medida, do risco de giz à prova final. Para casamentos, formaturas e o dia a dia de quem se veste com intenção.</p>
+      </div>
+      <div class="service-card">
+        <div class="idx mono">02</div>
+        <h3>Esporte Fino</h3>
+        <p>Peças versáteis que transitam do escritório ao compromisso social, sem perder o caimento sob medida.</p>
+      </div>
+      <div class="service-card">
+        <div class="idx mono">03</div>
+        <h3>Ajustes &amp; Reparos</h3>
+        <p>Terno de prateleira não veste igual a um feito pra você. Ajustamos caimento, comprimento e estrutura da peça que já é sua.</p>
+      </div>
+      <div class="service-card">
+        <div class="idx mono">04</div>
+        <h3>Acessórios</h3>
+        <p>Cintos, lenços de bolso e os detalhes finais que fecham o conjunto — escolhidos junto com a peça principal.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="process" id="processo">
+    <div class="section-head">
+      <div>
+        <span class="tag">Como funciona</span>
+        <h2>Da medida ao acabamento</h2>
+      </div>
+      <p>Um processo com quatro etapas — nenhuma pulada, nenhuma pressa.</p>
+    </div>
+    <div class="process-list">
+      <div class="process-item">
+        <div class="pnum mono">01</div>
+        <h3>Consulta &amp; medidas</h3>
+        <p>Conversamos sobre ocasião, caimento e tecido. Suas medidas são tiradas com calma — é a base de tudo que vem depois.</p>
+      </div>
+      <div class="process-item">
+        <div class="pnum mono">02</div>
+        <h3>Escolha do tecido</h3>
+        <p>Você decide entre as opções de tecido e acabamento, com orientação sobre o que combina com a ocasião e a estação.</p>
+      </div>
+      <div class="process-item">
+        <div class="pnum mono">03</div>
+        <h3>Prova</h3>
+        <p>A peça é ajustada no seu corpo, ao vivo. Pequenos ajustes de caimento são feitos aqui, antes do acabamento final.</p>
+      </div>
+      <div class="process-item">
+        <div class="pnum mono">04</div>
+        <h3>Entrega</h3>
+        <p>A peça finalizada, pronta pra vestir. Ajustes pós-entrega estão sempre à disposição, se algo precisar de retoque.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="swatches" id="tecidos">
+    <div class="section-head">
+      <div>
+        <span class="tag">Tecidos</span>
+        <h2>Uma paleta pra cada ocasião</h2>
+      </div>
+      <p>Uma pequena amostra do que trabalhamos — a seleção completa está disponível na loja.</p>
+    </div>
+    <div class="swatch-row">
+      <div class="swatch" style="background:#1B1F2A;">Marinho</div>
+      <div class="swatch" style="background:#3A3F4C;">Grafite</div>
+      <div class="swatch" style="background:#6E2A32;">Bordô</div>
+      <div class="swatch" style="background:#4A4030;">Musgo</div>
+      <div class="swatch" style="background:#7C6A4E;">Camelo</div>
+      <div class="swatch" style="background:#232323;">Preto</div>
+      <div class="swatch" style="background:#8C9AAE; color:#1B1F2A;">Cinza claro</div>
+      <div class="swatch" style="background:#A87C3F;">Caramelo</div>
+    </div>
+  </section>
+
+  <section class="gallery" id="portfolio">
+    <div class="section-head">
+      <div>
+        <span class="tag">Portfólio</span>
+        <h2>Peças que já saíram daqui</h2>
+      </div>
+      <p>Uma seleção do que construímos — cada peça pode ser replicada ou adaptada sob medida para você.</p>
+    </div>
+    <div class="gallery-grid" id="galleryGrid">
+      <div class="gallery-item" data-full="https://storage.alboom.ninja/sites/193313/albuns/1363777/_dsc7479.jpg" data-cap="Ternos e Blazer"><img src="https://storage.alboom.ninja/sites/193313/albuns/1363777/_dsc7479.jpg" alt="Terno Vittalle Speciale" loading="lazy"><div class="cap">Ternos e Blazer</div></div>
+      <div class="gallery-item" data-full="https://storage.alboom.ninja/sites/193313/albuns/1363777/_dsc7510.jpg" data-cap="Ternos e Blazer"><img src="https://storage.alboom.ninja/sites/193313/albuns/1363777/_dsc7510.jpg" alt="Terno Vittalle Speciale" loading="lazy"><div class="cap">Ternos e Blazer</div></div>
+      <div class="gallery-item" data-full="https://storage.alboom.ninja/sites/193313/albuns/1363777/_dsc7506.jpg" data-cap="Ternos e Blazer"><img src="https://storage.alboom.ninja/sites/193313/albuns/1363777/_dsc7506.jpg" alt="Terno Vittalle Speciale" loading="lazy"><div class="cap">Ternos e Blazer</div></div>
+      <div class="gallery-item" data-full="https://storage.alboom.ninja/sites/193313/albuns/1363777/photo-2024-06-25-14-37-39.jpg" data-cap="Ternos e Blazer"><img src="https://storage.alboom.ninja/sites/193313/albuns/1363777/photo-2024-06-25-14-37-39.jpg" alt="Terno Vittalle Speciale" loading="lazy"><div class="cap">Ternos e Blazer</div></div>
+      <div class="gallery-item" data-full="https://storage.alboom.ninja/sites/193313/albuns/1363773/photo-2024-06-25-14-37-31__2_.jpg" data-cap="Esporte Fino"><img src="https://storage.alboom.ninja/sites/193313/albuns/1363773/photo-2024-06-25-14-37-31__2_.jpg" alt="Esporte fino Vittalle Speciale" loading="lazy"><div class="cap">Esporte Fino</div></div>
+      <div class="gallery-item" data-full="https://storage.alboom.ninja/sites/193313/albuns/1363773/photo-2024-06-25-14-37-30.jpg" data-cap="Esporte Fino"><img src="https://storage.alboom.ninja/sites/193313/albuns/1363773/photo-2024-06-25-14-37-30.jpg" alt="Esporte fino Vittalle Speciale" loading="lazy"><div class="cap">Esporte Fino</div></div>
+      <div class="gallery-item" data-full="https://storage.alboom.ninja/sites/193313/albuns/1363786/_dsc7387.jpg" data-cap="Esporte Fino"><img src="https://storage.alboom.ninja/sites/193313/albuns/1363786/_dsc7387.jpg" alt="Esporte fino Vittalle Speciale" loading="lazy"><div class="cap">Esporte Fino</div></div>
+      <div class="gallery-item" data-full="https://storage.alboom.ninja/sites/193313/albuns/1363786/_dsc7292.jpg" data-cap="Esporte Fino"><img src="https://storage.alboom.ninja/sites/193313/albuns/1363786/_dsc7292.jpg" alt="Esporte fino Vittalle Speciale" loading="lazy"><div class="cap">Esporte Fino</div></div>
+      <div class="gallery-item" data-full="https://storage.alboom.ninja/sites/193313/albuns/1363781/snapinsta.app_412234813_377678807978707_2633181151754693385_n_1024.jpg" data-cap="Cinto e Acessórios"><img src="https://storage.alboom.ninja/sites/193313/albuns/1363781/snapinsta.app_412234813_377678807978707_2633181151754693385_n_1024.jpg" alt="Acessório Vittalle Speciale" loading="lazy"><div class="cap">Cinto e Acessórios</div></div>
+      <div class="gallery-item" data-full="https://storage.alboom.ninja/sites/193313/albuns/1361570/_dsc6180.JPG" data-cap="Sapatos"><img src="https://storage.alboom.ninja/sites/193313/albuns/1361570/_dsc6180.JPG" alt="Sapato Vittalle Speciale" loading="lazy"><div class="cap">Sapatos</div></div>
+      <div class="gallery-item" data-full="https://storage.alboom.ninja/sites/193313/albuns/1361570/_dsc6237.JPG" data-cap="Sapatos"><img src="https://storage.alboom.ninja/sites/193313/albuns/1361570/_dsc6237.JPG" alt="Sapato Vittalle Speciale" loading="lazy"><div class="cap">Sapatos</div></div>
+      <div class="gallery-item" data-full="https://storage.alboom.ninja/sites/193313/albuns/1363784/snapinsta.app_325964281_898111481370570_5665566685069410926_n_1024.jpg" data-cap="Chinelo e Sandália"><img src="https://storage.alboom.ninja/sites/193313/albuns/1363784/snapinsta.app_325964281_898111481370570_5665566685069410926_n_1024.jpg" alt="Chinelo Vittalle Speciale" loading="lazy"><div class="cap">Chinelo e Sandália</div></div>
+    </div>
+  </section>
+
+  <div class="lightbox" id="lightbox">
+    <div class="lb-close" id="lbClose">Fechar ✕</div>
+    <img id="lbImg" src="" alt="">
+    <div class="lb-cap" id="lbCap"></div>
+  </div>
+
+  <section class="location" id="local">
+    <div>
+      <span class="tag mono">Visite a loja</span>
+      <h2>Piso 1, entre uma corrida e outra ninguém te apressa aqui.</h2>
+      <div class="details">
+        <b>Vittalle Speciale</b><br>
+        Shopping Nova Iguaçu (Pedreira)<br>
+        Piso 1, Loja 3034<br>
+        (21) 96708-5203
+      </div>
+      <div class="loc-actions">
+        <a class="btn-light" href="https://wa.me/5521967085203" target="_blank" rel="noopener">Chamar no WhatsApp</a>
+        <a class="btn-outline-light" href="https://www.google.com/maps/place/Vittalle+Speciale/@-22.7642281,-43.4651447,17z" target="_blank" rel="noopener">Ver no mapa</a>
+      </div>
+    </div>
+    <div>
+      <div class="hours">
+        <div class="hours-row"><span>Segunda a Sábado</span><span>10h – 22h</span></div>
+        <div class="hours-row"><span>Domingo e Feriados</span><span>13h – 21h</span></div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div>© 2026 Vittalle Speciale — Alfaiataria Sob Medida</div>
+    <div class="socials">
+      <a href="https://www.instagram.com/vittalle.speciale" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://www.facebook.com/people/Vittalle-speciale/61560996083822/" target="_blank" rel="noopener">Facebook</a>
+    </div>
+  </footer>
+
+</div>
+
+<script>
+  const ticks = document.querySelectorAll('.tick');
+  ticks.forEach(t => {
+    t.addEventListener('click', () => {
+      const target = document.querySelector(t.dataset.target);
+      if(target) target.scrollIntoView({behavior:'smooth'});
+    });
+  });
+
+  const lightbox = document.getElementById('lightbox');
+  const lbImg = document.getElementById('lbImg');
+  const lbCap = document.getElementById('lbCap');
+  document.querySelectorAll('.gallery-item').forEach(item => {
+    item.addEventListener('click', () => {
+      lbImg.src = item.dataset.full;
+      lbCap.textContent = item.dataset.cap;
+      lightbox.classList.add('open');
+    });
+  });
+  document.getElementById('lbClose').addEventListener('click', () => lightbox.classList.remove('open'));
+  lightbox.addEventListener('click', (e) => { if(e.target === lightbox) lightbox.classList.remove('open'); });
+  document.addEventListener('keydown', (e) => { if(e.key === 'Escape') lightbox.classList.remove('open'); });
+  const sections = ['#topo','#servicos','#processo','#tecidos','#local'].map(id => document.querySelector(id));
+  window.addEventListener('scroll', () => {
+    let current = 0;
+    sections.forEach((s,i) => {
+      if(s && window.scrollY >= s.offsetTop - window.innerHeight/2) current = i;
+    });
+    ticks.forEach((t,i) => t.classList.toggle('active', i===current));
+  });
+</script>
+
+</body>
+</html>
