@@ -34,3 +34,10 @@
 - Aprendido: consistência de nome/endereço/telefone/horário entre site e perfil e sinais de área atendida ajudam busca local. O site já tem ClothingStore com horários, geo, hasMap, pagamento e botão Como chegar.
 - Adaptado: areaServed (Nova Iguaçu e Baixada Fluminense) no JSON-LD da página inicial.
 - Descartado: priceRange e avaliações (não confirmados). Lembrete ao Mec: manter horário/fotos do Perfil da Empresa no Google iguais ao site.
+
+## 2026-11-02 (6ª execução) — foco (b) velocidade no celular
+- Busca: boas práticas de design/velocidade mobile para sites de alfaiataria e moda (2026).
+- Fonte: https://brandastic.com/blog/website-design-trends-that-convert/ (resultado genérico: mobile-first e carregamento rápido convertem mais).
+- Aprendido: reservar o espaço das imagens evita saltos de layout; o site já usava loading="lazy" e decoding="async".
+- Adaptado: width/height reais em 41 imagens sem dimensões (loja, portfólio, serviços, tecidos). CSS já define tamanhos, sem mudança visual.
+- Descartado: carrossel/depoimentos (sem conteúdo confirmado).
