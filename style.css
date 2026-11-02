@@ -487,3 +487,4 @@
   .hero{ min-height:0; grid-template-columns:1fr; padding-top:72px; }
   .hero-copy{ max-width:760px; }
   @media (max-width:700px){ .hero{ padding-top:48px; } }
+  .hero + .explore{ padding-top:20px; }
