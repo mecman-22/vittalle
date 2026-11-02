@@ -68,3 +68,9 @@
 - Aprendido: CTA fixo no celular converte; o site já tem botão flutuante de WhatsApp em todas as páginas e prefers-reduced-motion tratado. Nada a duplicar.
 - Adaptado (melhoria pequena): CSS de impressão (esconde menu/botão, fundo branco) para imprimir endereço e horários da loja. style.css?v=7.
 - Descartado: barra fixa extra (redundante com o botão atual); depoimentos (sem conteúdo confirmado).
+
+## 2026-11-02 (11ª execução) — foco (c) SEO local / experiência
+- Busca: dicas de Perfil da Empresa no Google para loja de roupas 2026; resultados genéricos/repetidos (já coberto na 5ª execução), nada novo e seguro.
+- Fonte: https://www.truefuturemedia.com/articles/google-business-profile-optimization-checklist-2026 (genérica: consistência de dados e fotos recentes).
+- Adaptado (melhoria pequena): 404.html própria (GitHub Pages a usa), com <base href="/vittalle/">, noindex, menu, voltar ao início e WhatsApp. Fora do sitemap.
+- Descartado: priceRange/avaliações (não confirmados).
