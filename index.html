@@ -5,8 +5,44 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Vittalle Speciale — Alfaiataria Sob Medida | Shopping Nova Iguaçu</title>
 <meta name="description" content="Alfaiataria sob medida no Shopping Nova Iguaçu. Ternos, blazers e esporte fino feitos à mão, com corte exclusivo para cada cliente.">
+<meta name="theme-color" content="#1B1F2A">
+<link rel="canonical" href="https://mecman-22.github.io/vittalle/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%231B1F2A'/%3E%3Ctext x='32' y='45' font-family='Georgia,serif' font-size='40' font-weight='700' text-anchor='middle' fill='%23A87C3F'%3EV%3C/text%3E%3C/svg%3E">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:site_name" content="Vittalle Speciale">
+<meta property="og:url" content="https://mecman-22.github.io/vittalle/">
 <meta property="og:title" content="Vittalle Speciale — Alfaiataria Sob Medida">
 <meta property="og:description" content="Ternos, blazers e esporte fino sob medida. Shopping Nova Iguaçu, Piso 1.">
+<meta property="og:image" content="https://mecman-22.github.io/vittalle/img/costume-pv-1909-06-marinho.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ClothingStore",
+  "name": "Vittalle Speciale",
+  "description": "Alfaiataria sob medida: ternos, blazers e esporte fino.",
+  "url": "https://mecman-22.github.io/vittalle/",
+  "telephone": "+55 21 97267-2477",
+  "image": "https://mecman-22.github.io/vittalle/img/costume-pv-1909-06-marinho.jpg",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Shopping Nova Iguaçu, Piso 1, Loja 3034",
+    "addressLocality": "Nova Iguaçu",
+    "addressRegion": "RJ",
+    "addressCountry": "BR"
+  },
+  "geo": { "@type": "GeoCoordinates", "latitude": -22.7642281, "longitude": -43.4651447 },
+  "openingHoursSpecification": [
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"], "opens": "10:00", "closes": "22:00" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": "Sunday", "opens": "13:00", "closes": "21:00" }
+  ],
+  "sameAs": [
+    "https://www.instagram.com/vittalle.speciale",
+    "https://www.facebook.com/people/Vittalle-speciale/61560996083822/"
+  ]
+}
+</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -87,7 +123,36 @@
     border-radius:2px; transition:background .2s ease;
   }
   .cta-btn:hover{ background:var(--burgundy); }
-  @media (max-width:780px){ nav.links{ display:none; } }
+  @media (max-width:780px){
+    header.top{ flex-wrap:wrap; gap:12px 16px; padding:16px 6vw; }
+    nav.links{
+      order:3; width:100%; gap:22px; overflow-x:auto; white-space:nowrap;
+      padding-bottom:4px; scrollbar-width:none;
+    }
+    nav.links::-webkit-scrollbar{ display:none; }
+    nav.links a{ font-size:12px; }
+    .cta-btn{ padding:9px 16px; font-size:12px; }
+  }
+
+  /* --- Acessibilidade --- */
+  .skip-link{
+    position:absolute; left:-9999px; top:8px; z-index:200;
+    background:var(--burgundy); color:var(--ivory); padding:10px 18px; font-size:13px;
+  }
+  .skip-link:focus{ left:8px; }
+  a:focus-visible, [role="button"]:focus-visible, button:focus-visible{
+    outline:2px solid var(--brass); outline-offset:3px;
+  }
+  button.lb-close{ background:none; font:inherit; }
+
+  /* --- Botão flutuante WhatsApp --- */
+  .wa-float{
+    position:fixed; right:18px; bottom:18px; z-index:60;
+    background:#1f7a4d; color:#fff; padding:14px 20px; border-radius:999px;
+    font-size:13px; letter-spacing:0.05em; text-transform:uppercase; font-weight:600;
+    box-shadow:0 8px 24px rgba(0,0,0,0.25); transition:transform .2s ease;
+  }
+  .wa-float:hover{ transform:translateY(-2px); }
 
   /* --- HERO --- */
   .hero{
@@ -315,7 +380,9 @@
 </head>
 <body>
 
-<div class="tape-rail">
+<a class="skip-link" href="#servicos">Pular para o conteúdo</a>
+
+<div class="tape-rail" aria-hidden="false">
   <div class="brand-mark">VITTALLE SPECIALE</div>
   <div class="tape-ticks" id="tapeTicks">
     <div class="tick" data-target="#topo" style="top:0%">0</div>
@@ -337,7 +404,7 @@
       <a href="#portfolio">Portfólio</a>
       <a href="#local">Loja</a>
     </nav>
-    <a class="cta-btn" href="https://wa.me/5521972672477" target="_blank" rel="noopener">Agendar prova</a>
+    <a class="cta-btn" href="https://wa.me/5521972672477?text=Ol%C3%A1%2C%20vi%20o%20site%20da%20Vittalle%20Speciale%20e%20gostaria%20de%20agendar%20uma%20prova." target="_blank" rel="noopener">Agendar prova</a>
   </header>
 
   <section class="hero">
@@ -345,7 +412,7 @@
     <h1>O corte é <span class="ital">seu</span>.<br>O resto é ofício.</h1>
     <p class="sub">Ternos, blazers e esporte fino construídos peça por peça, sobre as suas medidas — não as de um manequim. Da primeira prova ao acabamento final, cada detalhe é decidido junto com você.</p>
     <div class="actions">
-      <a class="btn-primary" href="https://wa.me/5521972672477" target="_blank" rel="noopener">Marcar uma prova</a>
+      <a class="btn-primary" href="https://wa.me/5521972672477?text=Ol%C3%A1%2C%20vi%20o%20site%20da%20Vittalle%20Speciale%20e%20gostaria%20de%20agendar%20uma%20prova." target="_blank" rel="noopener">Marcar uma prova</a>
       <a class="btn-ghost" href="#servicos">Ver o que fazemos</a>
     </div>
     <div class="hero-measure">
@@ -453,12 +520,12 @@
       <h3>Textura sutil, tingimento no fio</h3>
       <p class="malha-desc">Tecido PV Elastano com fio tingido antes da tecelagem — resultado num acabamento levemente texturizado e uniforme, diferente do liso tradicional. Toque macio, com leve elasticidade.</p>
       <div class="malha-grid">
-        <div class="malha-item"><img src="img/costume-pv-1909-06-marinho.jpg" alt="Fio tinto marinho" loading="lazy"><div class="malha-info"><span class="malha-ref">Ref. 1909-06</span><span class="malha-name">Fio Tinto Marinho</span><span class="malha-spec">84% Poliéster · 15% Viscose · 1% Elastano</span><span class="malha-size">Tamanhos 44 ao 70</span><span class="malha-lining" data-full="img/lining-fio-tinto-marinho.jpg" data-cap="Forro interno">Ver forro interno →</span></div></div>
-        <div class="malha-item"><img src="img/costume-pv-1909-07-azul.jpg" alt="Fio tinto azul" loading="lazy"><div class="malha-info"><span class="malha-ref">Ref. 1909-07</span><span class="malha-name">Fio Tinto Azul</span><span class="malha-spec">84% Poliéster · 15% Viscose · 1% Elastano</span><span class="malha-size">Tamanhos 44 ao 70</span><span class="malha-lining" data-full="img/lining-fio-tinto-azul.jpg" data-cap="Forro interno">Ver forro interno →</span></div></div>
-        <div class="malha-item"><img src="img/costume-pv-1909-08-cinza.jpg" alt="Fio tinto cinza" loading="lazy"><div class="malha-info"><span class="malha-ref">Ref. 1909-08</span><span class="malha-name">Fio Tinto Cinza</span><span class="malha-spec">84% Poliéster · 15% Viscose · 1% Elastano</span><span class="malha-size">Tamanhos 44 ao 70</span><span class="malha-lining" data-full="img/lining-fio-tinto-cinza.jpg" data-cap="Forro interno">Ver forro interno →</span></div></div>
-        <div class="malha-item"><img src="img/costume-pv-1909-09-bege.jpg" alt="Fio tinto bege" loading="lazy"><div class="malha-info"><span class="malha-ref">Ref. 1909-09</span><span class="malha-name">Fio Tinto Bege</span><span class="malha-spec">85% Poliéster · 14% Viscose · 1% Elastano</span><span class="malha-size">Tamanhos 44 ao 70</span><span class="malha-lining" data-full="img/lining-fio-tinto-bege.jpg" data-cap="Forro interno">Ver forro interno →</span></div></div>
-        <div class="malha-item"><img src="img/costume-pv-1909-10-azul-claro.jpg" alt="Fio tinto azul claro" loading="lazy"><div class="malha-info"><span class="malha-ref">Ref. 1909-10</span><span class="malha-name">Fio Tinto Azul Claro</span><span class="malha-spec">82% Poliéster · 17% Viscose · 1% Elastano</span><span class="malha-size">Tamanhos 44 ao 70</span><span class="malha-lining" data-full="img/lining-fio-tinto-azul-claro.jpg" data-cap="Forro interno">Ver forro interno →</span></div></div>
-        <div class="malha-item"><img src="img/costume-pv-1909-11-chumbo.jpg" alt="Fio tinto chumbo" loading="lazy"><div class="malha-info"><span class="malha-ref">Ref. 1909-11</span><span class="malha-name">Fio Tinto Chumbo</span><span class="malha-spec">68% Poliéster · 30% Viscose · 2% Elastano</span><span class="malha-size">Tamanhos 44 ao 70</span><span class="malha-lining" data-full="img/lining-fio-tinto-chumbo.jpg" data-cap="Forro interno">Ver forro interno →</span></div></div>
+        <div class="malha-item"><img src="img/costume-pv-1909-06-marinho.jpg" alt="Fio tinto marinho" loading="lazy" decoding="async"><div class="malha-info"><span class="malha-ref">Ref. 1909-06</span><span class="malha-name">Fio Tinto Marinho</span><span class="malha-spec">84% Poliéster · 15% Viscose · 1% Elastano</span><span class="malha-size">Tamanhos 44 ao 70</span><span class="malha-lining" data-full="img/lining-fio-tinto-marinho.jpg" data-cap="Forro interno">Ver forro interno →</span></div></div>
+        <div class="malha-item"><img src="img/costume-pv-1909-07-azul.jpg" alt="Fio tinto azul" loading="lazy" decoding="async"><div class="malha-info"><span class="malha-ref">Ref. 1909-07</span><span class="malha-name">Fio Tinto Azul</span><span class="malha-spec">84% Poliéster · 15% Viscose · 1% Elastano</span><span class="malha-size">Tamanhos 44 ao 70</span><span class="malha-lining" data-full="img/lining-fio-tinto-azul.jpg" data-cap="Forro interno">Ver forro interno →</span></div></div>
+        <div class="malha-item"><img src="img/costume-pv-1909-08-cinza.jpg" alt="Fio tinto cinza" loading="lazy" decoding="async"><div class="malha-info"><span class="malha-ref">Ref. 1909-08</span><span class="malha-name">Fio Tinto Cinza</span><span class="malha-spec">84% Poliéster · 15% Viscose · 1% Elastano</span><span class="malha-size">Tamanhos 44 ao 70</span><span class="malha-lining" data-full="img/lining-fio-tinto-cinza.jpg" data-cap="Forro interno">Ver forro interno →</span></div></div>
+        <div class="malha-item"><img src="img/costume-pv-1909-09-bege.jpg" alt="Fio tinto bege" loading="lazy" decoding="async"><div class="malha-info"><span class="malha-ref">Ref. 1909-09</span><span class="malha-name">Fio Tinto Bege</span><span class="malha-spec">85% Poliéster · 14% Viscose · 1% Elastano</span><span class="malha-size">Tamanhos 44 ao 70</span><span class="malha-lining" data-full="img/lining-fio-tinto-bege.jpg" data-cap="Forro interno">Ver forro interno →</span></div></div>
+        <div class="malha-item"><img src="img/costume-pv-1909-10-azul-claro.jpg" alt="Fio tinto azul claro" loading="lazy" decoding="async"><div class="malha-info"><span class="malha-ref">Ref. 1909-10</span><span class="malha-name">Fio Tinto Azul Claro</span><span class="malha-spec">82% Poliéster · 17% Viscose · 1% Elastano</span><span class="malha-size">Tamanhos 44 ao 70</span><span class="malha-lining" data-full="img/lining-fio-tinto-azul-claro.jpg" data-cap="Forro interno">Ver forro interno →</span></div></div>
+        <div class="malha-item"><img src="img/costume-pv-1909-11-chumbo.jpg" alt="Fio tinto chumbo" loading="lazy" decoding="async"><div class="malha-info"><span class="malha-ref">Ref. 1909-11</span><span class="malha-name">Fio Tinto Chumbo</span><span class="malha-spec">68% Poliéster · 30% Viscose · 2% Elastano</span><span class="malha-size">Tamanhos 44 ao 70</span><span class="malha-lining" data-full="img/lining-fio-tinto-chumbo.jpg" data-cap="Forro interno">Ver forro interno →</span></div></div>
       </div>
     </div>
 
@@ -467,13 +534,13 @@
       <h3>O clássico sob medida, sem textura aparente</h3>
       <p class="malha-desc">Tecido PV Elastano liso — acabamento uniforme e discreto, a base mais versátil para cerimônia, trabalho ou uso diário. Disponível também em colete no mesmo tecido.</p>
       <div class="malha-grid">
-        <div class="malha-item"><img src="img/costume-1783-preto.jpg" alt="Elastano liso preto" loading="lazy"><div class="malha-info"><span class="malha-ref">Ref. 1783</span><span class="malha-name">Liso Preto</span><span class="malha-spec">78% Poliéster · 20% Viscose · 2% Elastano</span><span class="malha-size">Tamanhos 44 ao 70 · calça avulsa disponível</span><span class="malha-lining" data-full="img/lining-liso-preto.jpg" data-cap="Forro interno">Ver forro interno →</span></div></div>
-        <div class="malha-item"><img src="img/costume-1783-marinho.jpg" alt="Elastano liso marinho" loading="lazy"><div class="malha-info"><span class="malha-ref">Ref. 1783</span><span class="malha-name">Liso Marinho</span><span class="malha-spec">78% Poliéster · 20% Viscose · 2% Elastano</span><span class="malha-size">Tamanhos 44 ao 70</span><span class="malha-lining" data-full="img/lining-liso-marinho.jpg" data-cap="Forro interno">Ver forro interno →</span></div></div>
-        <div class="malha-item"><img src="img/costume-1783-azul-royal.jpg" alt="Elastano liso azul royal" loading="lazy"><div class="malha-info"><span class="malha-ref">Ref. 1783</span><span class="malha-name">Liso Azul Royal</span><span class="malha-spec">78% Poliéster · 20% Viscose · 2% Elastano</span><span class="malha-size">Tamanhos 44 ao 70</span><span class="malha-lining" data-full="img/lining-liso-azul-royal.jpg" data-cap="Forro interno">Ver forro interno →</span></div></div>
-        <div class="malha-item"><img src="img/costume-1783-chumbo.jpg" alt="Elastano liso chumbo" loading="lazy"><div class="malha-info"><span class="malha-ref">Ref. 1783</span><span class="malha-name">Liso Chumbo</span><span class="malha-spec">78% Poliéster · 20% Viscose · 2% Elastano</span><span class="malha-size">Tamanhos 44 ao 70</span><span class="malha-lining" data-full="img/lining-liso-chumbo.jpg" data-cap="Forro interno">Ver forro interno →</span></div></div>
-        <div class="malha-item"><img src="img/costume-1783-cinza-claro.jpg" alt="Elastano liso cinza claro" loading="lazy"><div class="malha-info"><span class="malha-ref">Ref. 1783</span><span class="malha-name">Liso Cinza Claro</span><span class="malha-spec">78% Poliéster · 20% Viscose · 2% Elastano</span><span class="malha-size">Tamanhos 44 ao 70</span><span class="malha-lining" data-full="img/lining-liso-cinza-claro.jpg" data-cap="Forro interno">Ver forro interno →</span></div></div>
-        <div class="malha-item"><img src="img/costume-1783-areia.jpg" alt="Elastano liso areia" loading="lazy"><div class="malha-info"><span class="malha-ref">Ref. 1783</span><span class="malha-name">Liso Areia</span><span class="malha-spec">78% Poliéster · 20% Viscose · 2% Elastano</span><span class="malha-size">Tamanhos 44 ao 70</span><span class="malha-lining" data-full="img/lining-liso-areia.jpg" data-cap="Forro interno">Ver forro interno →</span></div></div>
-        <div class="malha-item"><img src="img/costume-1783-verde.jpg" alt="Elastano liso verde" loading="lazy"><div class="malha-info"><span class="malha-ref">Ref. 1783</span><span class="malha-name">Liso Verde</span><span class="malha-spec">78% Poliéster · 20% Viscose · 2% Elastano</span><span class="malha-size">Tamanhos 44 ao 58</span><span class="malha-lining" data-full="img/lining-liso-verde.jpg" data-cap="Forro interno">Ver forro interno →</span></div></div>
+        <div class="malha-item"><img src="img/costume-1783-preto.jpg" alt="Elastano liso preto" loading="lazy" decoding="async"><div class="malha-info"><span class="malha-ref">Ref. 1783</span><span class="malha-name">Liso Preto</span><span class="malha-spec">78% Poliéster · 20% Viscose · 2% Elastano</span><span class="malha-size">Tamanhos 44 ao 70 · calça avulsa disponível</span><span class="malha-lining" data-full="img/lining-liso-preto.jpg" data-cap="Forro interno">Ver forro interno →</span></div></div>
+        <div class="malha-item"><img src="img/costume-1783-marinho.jpg" alt="Elastano liso marinho" loading="lazy" decoding="async"><div class="malha-info"><span class="malha-ref">Ref. 1783</span><span class="malha-name">Liso Marinho</span><span class="malha-spec">78% Poliéster · 20% Viscose · 2% Elastano</span><span class="malha-size">Tamanhos 44 ao 70</span><span class="malha-lining" data-full="img/lining-liso-marinho.jpg" data-cap="Forro interno">Ver forro interno →</span></div></div>
+        <div class="malha-item"><img src="img/costume-1783-azul-royal.jpg" alt="Elastano liso azul royal" loading="lazy" decoding="async"><div class="malha-info"><span class="malha-ref">Ref. 1783</span><span class="malha-name">Liso Azul Royal</span><span class="malha-spec">78% Poliéster · 20% Viscose · 2% Elastano</span><span class="malha-size">Tamanhos 44 ao 70</span><span class="malha-lining" data-full="img/lining-liso-azul-royal.jpg" data-cap="Forro interno">Ver forro interno →</span></div></div>
+        <div class="malha-item"><img src="img/costume-1783-chumbo.jpg" alt="Elastano liso chumbo" loading="lazy" decoding="async"><div class="malha-info"><span class="malha-ref">Ref. 1783</span><span class="malha-name">Liso Chumbo</span><span class="malha-spec">78% Poliéster · 20% Viscose · 2% Elastano</span><span class="malha-size">Tamanhos 44 ao 70</span><span class="malha-lining" data-full="img/lining-liso-chumbo.jpg" data-cap="Forro interno">Ver forro interno →</span></div></div>
+        <div class="malha-item"><img src="img/costume-1783-cinza-claro.jpg" alt="Elastano liso cinza claro" loading="lazy" decoding="async"><div class="malha-info"><span class="malha-ref">Ref. 1783</span><span class="malha-name">Liso Cinza Claro</span><span class="malha-spec">78% Poliéster · 20% Viscose · 2% Elastano</span><span class="malha-size">Tamanhos 44 ao 70</span><span class="malha-lining" data-full="img/lining-liso-cinza-claro.jpg" data-cap="Forro interno">Ver forro interno →</span></div></div>
+        <div class="malha-item"><img src="img/costume-1783-areia.jpg" alt="Elastano liso areia" loading="lazy" decoding="async"><div class="malha-info"><span class="malha-ref">Ref. 1783</span><span class="malha-name">Liso Areia</span><span class="malha-spec">78% Poliéster · 20% Viscose · 2% Elastano</span><span class="malha-size">Tamanhos 44 ao 70</span><span class="malha-lining" data-full="img/lining-liso-areia.jpg" data-cap="Forro interno">Ver forro interno →</span></div></div>
+        <div class="malha-item"><img src="img/costume-1783-verde.jpg" alt="Elastano liso verde" loading="lazy" decoding="async"><div class="malha-info"><span class="malha-ref">Ref. 1783</span><span class="malha-name">Liso Verde</span><span class="malha-spec">78% Poliéster · 20% Viscose · 2% Elastano</span><span class="malha-size">Tamanhos 44 ao 58</span><span class="malha-lining" data-full="img/lining-liso-verde.jpg" data-cap="Forro interno">Ver forro interno →</span></div></div>
       </div>
     </div>
 
@@ -482,10 +549,10 @@
       <h3>Tecido 100% poliéster, resistência no dia a dia</h3>
       <p class="malha-desc">Trama Oxford — mais firme e durável, ideal para quem usa o terno com frequência e precisa de uma peça que aguenta a rotina sem perder o caimento.</p>
       <div class="malha-grid">
-        <div class="malha-item"><img src="img/costume-oxford-1792-preto.jpg" alt="Oxford preto" loading="lazy"><div class="malha-info"><span class="malha-ref">Ref. 1792</span><span class="malha-name">Oxford Preto</span><span class="malha-spec">100% Poliéster</span><span class="malha-size">Tamanhos 44 ao 66</span><span class="malha-lining" data-full="img/lining-oxford-preto.jpg" data-cap="Forro interno">Ver forro interno →</span></div></div>
-        <div class="malha-item"><img src="img/costume-oxford-1792-marinho.jpg" alt="Oxford marinho" loading="lazy"><div class="malha-info"><span class="malha-ref">Ref. 1792</span><span class="malha-name">Oxford Marinho</span><span class="malha-spec">100% Poliéster</span><span class="malha-size">Tamanhos 44 ao 66</span><span class="malha-lining" data-full="img/lining-oxford-marinho.jpg" data-cap="Forro interno">Ver forro interno →</span></div></div>
-        <div class="malha-item"><img src="img/costume-oxford-1792-cinza.jpg" alt="Oxford cinza claro" loading="lazy"><div class="malha-info"><span class="malha-ref">Ref. 1792</span><span class="malha-name">Oxford Cinza Claro</span><span class="malha-spec">100% Poliéster</span><span class="malha-size">Tamanhos 44 ao 66</span><span class="malha-lining" data-full="img/lining-oxford-cinza.jpg" data-cap="Forro interno">Ver forro interno →</span></div></div>
-        <div class="malha-item"><img src="img/costume-oxford-1792-areia.jpg" alt="Oxford areia" loading="lazy"><div class="malha-info"><span class="malha-ref">Ref. 1792</span><span class="malha-name">Oxford Areia</span><span class="malha-spec">100% Poliéster</span><span class="malha-size">Tamanhos 44 ao 66</span><span class="malha-lining" data-full="img/lining-oxford-areia.jpg" data-cap="Forro interno">Ver forro interno →</span></div></div>
+        <div class="malha-item"><img src="img/costume-oxford-1792-preto.jpg" alt="Oxford preto" loading="lazy" decoding="async"><div class="malha-info"><span class="malha-ref">Ref. 1792</span><span class="malha-name">Oxford Preto</span><span class="malha-spec">100% Poliéster</span><span class="malha-size">Tamanhos 44 ao 66</span><span class="malha-lining" data-full="img/lining-oxford-preto.jpg" data-cap="Forro interno">Ver forro interno →</span></div></div>
+        <div class="malha-item"><img src="img/costume-oxford-1792-marinho.jpg" alt="Oxford marinho" loading="lazy" decoding="async"><div class="malha-info"><span class="malha-ref">Ref. 1792</span><span class="malha-name">Oxford Marinho</span><span class="malha-spec">100% Poliéster</span><span class="malha-size">Tamanhos 44 ao 66</span><span class="malha-lining" data-full="img/lining-oxford-marinho.jpg" data-cap="Forro interno">Ver forro interno →</span></div></div>
+        <div class="malha-item"><img src="img/costume-oxford-1792-cinza.jpg" alt="Oxford cinza claro" loading="lazy" decoding="async"><div class="malha-info"><span class="malha-ref">Ref. 1792</span><span class="malha-name">Oxford Cinza Claro</span><span class="malha-spec">100% Poliéster</span><span class="malha-size">Tamanhos 44 ao 66</span><span class="malha-lining" data-full="img/lining-oxford-cinza.jpg" data-cap="Forro interno">Ver forro interno →</span></div></div>
+        <div class="malha-item"><img src="img/costume-oxford-1792-areia.jpg" alt="Oxford areia" loading="lazy" decoding="async"><div class="malha-info"><span class="malha-ref">Ref. 1792</span><span class="malha-name">Oxford Areia</span><span class="malha-spec">100% Poliéster</span><span class="malha-size">Tamanhos 44 ao 66</span><span class="malha-lining" data-full="img/lining-oxford-areia.jpg" data-cap="Forro interno">Ver forro interno →</span></div></div>
       </div>
     </div>
 
@@ -494,9 +561,9 @@
       <h3>Leveza para o calor carioca</h3>
       <p class="malha-desc">Mistura de lã com poliéster em trama mais aberta e respirável — feito para manter o caimento formal sem pesar no dia quente.</p>
       <div class="malha-grid">
-        <div class="malha-item"><img src="img/costume-tropical-1777-01.jpg" alt="Tropical preto" loading="lazy"><div class="malha-info"><span class="malha-ref">Ref. 1777-01</span><span class="malha-name">Tropical Preto</span><span class="malha-spec">70% Poliéster · 30% Lã</span><span class="malha-size">Tamanhos 46 ao 60</span><span class="malha-lining" data-full="img/lining-tropical-preto.jpg" data-cap="Forro interno">Ver forro interno →</span></div></div>
-        <div class="malha-item"><img src="img/costume-tropical-1777-06.jpg" alt="Tropical marinho" loading="lazy"><div class="malha-info"><span class="malha-ref">Ref. 1777-06</span><span class="malha-name">Tropical Marinho</span><span class="malha-spec">50% Poliéster · 50% Lã</span><span class="malha-size">Tamanhos 46 ao 60</span><span class="malha-lining" data-full="img/lining-tropical-marinho.jpg" data-cap="Forro interno">Ver forro interno →</span></div></div>
-        <div class="malha-item"><img src="img/costume-tropical-1777-09.jpg" alt="Tropical cinza claro" loading="lazy"><div class="malha-info"><span class="malha-ref">Ref. 1777-09</span><span class="malha-name">Tropical Cinza Claro</span><span class="malha-spec">70% Poliéster · 30% Lã</span><span class="malha-size">Tamanhos 46 ao 60</span><span class="malha-lining" data-full="img/lining-tropical-cinza.jpg" data-cap="Forro interno">Ver forro interno →</span></div></div>
+        <div class="malha-item"><img src="img/costume-tropical-1777-01.jpg" alt="Tropical preto" loading="lazy" decoding="async"><div class="malha-info"><span class="malha-ref">Ref. 1777-01</span><span class="malha-name">Tropical Preto</span><span class="malha-spec">70% Poliéster · 30% Lã</span><span class="malha-size">Tamanhos 46 ao 60</span><span class="malha-lining" data-full="img/lining-tropical-preto.jpg" data-cap="Forro interno">Ver forro interno →</span></div></div>
+        <div class="malha-item"><img src="img/costume-tropical-1777-06.jpg" alt="Tropical marinho" loading="lazy" decoding="async"><div class="malha-info"><span class="malha-ref">Ref. 1777-06</span><span class="malha-name">Tropical Marinho</span><span class="malha-spec">50% Poliéster · 50% Lã</span><span class="malha-size">Tamanhos 46 ao 60</span><span class="malha-lining" data-full="img/lining-tropical-marinho.jpg" data-cap="Forro interno">Ver forro interno →</span></div></div>
+        <div class="malha-item"><img src="img/costume-tropical-1777-09.jpg" alt="Tropical cinza claro" loading="lazy" decoding="async"><div class="malha-info"><span class="malha-ref">Ref. 1777-09</span><span class="malha-name">Tropical Cinza Claro</span><span class="malha-spec">70% Poliéster · 30% Lã</span><span class="malha-size">Tamanhos 46 ao 60</span><span class="malha-lining" data-full="img/lining-tropical-cinza.jpg" data-cap="Forro interno">Ver forro interno →</span></div></div>
       </div>
     </div>
 
@@ -505,9 +572,9 @@
       <h3>O tecido nobre da alfaiataria clássica</h3>
       <p class="malha-desc">Lã pura ou em mistura predominante — caimento superior e durabilidade, para quem busca a peça mais tradicional do guarda-roupa formal.</p>
       <div class="malha-grid">
-        <div class="malha-item"><img src="img/costume-la-1795-01.jpg" alt="Lã preto" loading="lazy"><div class="malha-info"><span class="malha-ref">Ref. 1795-01</span><span class="malha-name">Lã Preto</span><span class="malha-spec">100% Lã</span><span class="malha-size">Tamanhos 46 ao 60</span><span class="malha-lining" data-full="img/lining-la-preto.jpg" data-cap="Forro interno">Ver forro interno →</span></div></div>
-        <div class="malha-item"><img src="img/costume-la-1795-03.jpg" alt="Lã chumbo" loading="lazy"><div class="malha-info"><span class="malha-ref">Ref. 1795-03</span><span class="malha-name">Lã Chumbo</span><span class="malha-spec">100% Lã</span><span class="malha-size">Tamanhos 46 ao 60</span><span class="malha-lining" data-full="img/lining-la-chumbo.jpg" data-cap="Forro interno">Ver forro interno →</span></div></div>
-        <div class="malha-item"><img src="img/costume-la-1795-04.jpg" alt="Lã azul" loading="lazy"><div class="malha-info"><span class="malha-ref">Ref. 1795-04</span><span class="malha-name">Lã Azul</span><span class="malha-spec">70% Lã · 30% Poliéster</span><span class="malha-size">Tamanhos 46 ao 60</span><span class="malha-lining" data-full="img/lining-la-azul.jpg" data-cap="Forro interno">Ver forro interno →</span></div></div>
+        <div class="malha-item"><img src="img/costume-la-1795-01.jpg" alt="Lã preto" loading="lazy" decoding="async"><div class="malha-info"><span class="malha-ref">Ref. 1795-01</span><span class="malha-name">Lã Preto</span><span class="malha-spec">100% Lã</span><span class="malha-size">Tamanhos 46 ao 60</span><span class="malha-lining" data-full="img/lining-la-preto.jpg" data-cap="Forro interno">Ver forro interno →</span></div></div>
+        <div class="malha-item"><img src="img/costume-la-1795-03.jpg" alt="Lã chumbo" loading="lazy" decoding="async"><div class="malha-info"><span class="malha-ref">Ref. 1795-03</span><span class="malha-name">Lã Chumbo</span><span class="malha-spec">100% Lã</span><span class="malha-size">Tamanhos 46 ao 60</span><span class="malha-lining" data-full="img/lining-la-chumbo.jpg" data-cap="Forro interno">Ver forro interno →</span></div></div>
+        <div class="malha-item"><img src="img/costume-la-1795-04.jpg" alt="Lã azul" loading="lazy" decoding="async"><div class="malha-info"><span class="malha-ref">Ref. 1795-04</span><span class="malha-name">Lã Azul</span><span class="malha-spec">70% Lã · 30% Poliéster</span><span class="malha-size">Tamanhos 46 ao 60</span><span class="malha-lining" data-full="img/lining-la-azul.jpg" data-cap="Forro interno">Ver forro interno →</span></div></div>
       </div>
     </div>
   </section>
@@ -521,26 +588,28 @@
       <p>Uma seleção do que construímos — cada peça pode ser replicada ou adaptada sob medida para você.</p>
     </div>
     <div class="gallery-grid" id="galleryGrid">
-      <div class="gallery-item" data-full="https://storage.alboom.ninja/sites/193313/albuns/1363777/_dsc7479.jpg" data-cap="Ternos e Blazer"><img src="https://storage.alboom.ninja/sites/193313/albuns/1363777/_dsc7479.jpg" alt="Terno Vittalle Speciale" loading="lazy"><div class="cap">Ternos e Blazer</div></div>
-      <div class="gallery-item" data-full="https://storage.alboom.ninja/sites/193313/albuns/1363777/_dsc7510.jpg" data-cap="Ternos e Blazer"><img src="https://storage.alboom.ninja/sites/193313/albuns/1363777/_dsc7510.jpg" alt="Terno Vittalle Speciale" loading="lazy"><div class="cap">Ternos e Blazer</div></div>
-      <div class="gallery-item" data-full="https://storage.alboom.ninja/sites/193313/albuns/1363777/_dsc7506.jpg" data-cap="Ternos e Blazer"><img src="https://storage.alboom.ninja/sites/193313/albuns/1363777/_dsc7506.jpg" alt="Terno Vittalle Speciale" loading="lazy"><div class="cap">Ternos e Blazer</div></div>
-      <div class="gallery-item" data-full="https://storage.alboom.ninja/sites/193313/albuns/1363777/photo-2024-06-25-14-37-39.jpg" data-cap="Ternos e Blazer"><img src="https://storage.alboom.ninja/sites/193313/albuns/1363777/photo-2024-06-25-14-37-39.jpg" alt="Terno Vittalle Speciale" loading="lazy"><div class="cap">Ternos e Blazer</div></div>
-      <div class="gallery-item" data-full="https://storage.alboom.ninja/sites/193313/albuns/1363773/photo-2024-06-25-14-37-31__2_.jpg" data-cap="Esporte Fino"><img src="https://storage.alboom.ninja/sites/193313/albuns/1363773/photo-2024-06-25-14-37-31__2_.jpg" alt="Esporte fino Vittalle Speciale" loading="lazy"><div class="cap">Esporte Fino</div></div>
-      <div class="gallery-item" data-full="https://storage.alboom.ninja/sites/193313/albuns/1363773/photo-2024-06-25-14-37-30.jpg" data-cap="Esporte Fino"><img src="https://storage.alboom.ninja/sites/193313/albuns/1363773/photo-2024-06-25-14-37-30.jpg" alt="Esporte fino Vittalle Speciale" loading="lazy"><div class="cap">Esporte Fino</div></div>
-      <div class="gallery-item" data-full="https://storage.alboom.ninja/sites/193313/albuns/1363786/_dsc7387.jpg" data-cap="Esporte Fino"><img src="https://storage.alboom.ninja/sites/193313/albuns/1363786/_dsc7387.jpg" alt="Esporte fino Vittalle Speciale" loading="lazy"><div class="cap">Esporte Fino</div></div>
-      <div class="gallery-item" data-full="https://storage.alboom.ninja/sites/193313/albuns/1363786/_dsc7292.jpg" data-cap="Esporte Fino"><img src="https://storage.alboom.ninja/sites/193313/albuns/1363786/_dsc7292.jpg" alt="Esporte fino Vittalle Speciale" loading="lazy"><div class="cap">Esporte Fino</div></div>
-      <div class="gallery-item" data-full="https://storage.alboom.ninja/sites/193313/albuns/1363781/snapinsta.app_412234813_377678807978707_2633181151754693385_n_1024.jpg" data-cap="Cinto e Acessórios"><img src="https://storage.alboom.ninja/sites/193313/albuns/1363781/snapinsta.app_412234813_377678807978707_2633181151754693385_n_1024.jpg" alt="Acessório Vittalle Speciale" loading="lazy"><div class="cap">Cinto e Acessórios</div></div>
-      <div class="gallery-item" data-full="https://storage.alboom.ninja/sites/193313/albuns/1361570/_dsc6180.JPG" data-cap="Sapatos"><img src="https://storage.alboom.ninja/sites/193313/albuns/1361570/_dsc6180.JPG" alt="Sapato Vittalle Speciale" loading="lazy"><div class="cap">Sapatos</div></div>
-      <div class="gallery-item" data-full="https://storage.alboom.ninja/sites/193313/albuns/1361570/_dsc6237.JPG" data-cap="Sapatos"><img src="https://storage.alboom.ninja/sites/193313/albuns/1361570/_dsc6237.JPG" alt="Sapato Vittalle Speciale" loading="lazy"><div class="cap">Sapatos</div></div>
-      <div class="gallery-item" data-full="https://storage.alboom.ninja/sites/193313/albuns/1363784/snapinsta.app_325964281_898111481370570_5665566685069410926_n_1024.jpg" data-cap="Chinelo e Sandália"><img src="https://storage.alboom.ninja/sites/193313/albuns/1363784/snapinsta.app_325964281_898111481370570_5665566685069410926_n_1024.jpg" alt="Chinelo Vittalle Speciale" loading="lazy"><div class="cap">Chinelo e Sandália</div></div>
+      <div class="gallery-item" data-full="https://storage.alboom.ninja/sites/193313/albuns/1363777/_dsc7479.jpg" data-cap="Ternos e Blazer"><img src="https://storage.alboom.ninja/sites/193313/albuns/1363777/_dsc7479.jpg" alt="Terno Vittalle Speciale" loading="lazy" decoding="async"><div class="cap">Ternos e Blazer</div></div>
+      <div class="gallery-item" data-full="https://storage.alboom.ninja/sites/193313/albuns/1363777/_dsc7510.jpg" data-cap="Ternos e Blazer"><img src="https://storage.alboom.ninja/sites/193313/albuns/1363777/_dsc7510.jpg" alt="Terno Vittalle Speciale" loading="lazy" decoding="async"><div class="cap">Ternos e Blazer</div></div>
+      <div class="gallery-item" data-full="https://storage.alboom.ninja/sites/193313/albuns/1363777/_dsc7506.jpg" data-cap="Ternos e Blazer"><img src="https://storage.alboom.ninja/sites/193313/albuns/1363777/_dsc7506.jpg" alt="Terno Vittalle Speciale" loading="lazy" decoding="async"><div class="cap">Ternos e Blazer</div></div>
+      <div class="gallery-item" data-full="https://storage.alboom.ninja/sites/193313/albuns/1363777/photo-2024-06-25-14-37-39.jpg" data-cap="Ternos e Blazer"><img src="https://storage.alboom.ninja/sites/193313/albuns/1363777/photo-2024-06-25-14-37-39.jpg" alt="Terno Vittalle Speciale" loading="lazy" decoding="async"><div class="cap">Ternos e Blazer</div></div>
+      <div class="gallery-item" data-full="https://storage.alboom.ninja/sites/193313/albuns/1363773/photo-2024-06-25-14-37-31__2_.jpg" data-cap="Esporte Fino"><img src="https://storage.alboom.ninja/sites/193313/albuns/1363773/photo-2024-06-25-14-37-31__2_.jpg" alt="Esporte fino Vittalle Speciale" loading="lazy" decoding="async"><div class="cap">Esporte Fino</div></div>
+      <div class="gallery-item" data-full="https://storage.alboom.ninja/sites/193313/albuns/1363773/photo-2024-06-25-14-37-30.jpg" data-cap="Esporte Fino"><img src="https://storage.alboom.ninja/sites/193313/albuns/1363773/photo-2024-06-25-14-37-30.jpg" alt="Esporte fino Vittalle Speciale" loading="lazy" decoding="async"><div class="cap">Esporte Fino</div></div>
+      <div class="gallery-item" data-full="https://storage.alboom.ninja/sites/193313/albuns/1363786/_dsc7387.jpg" data-cap="Esporte Fino"><img src="https://storage.alboom.ninja/sites/193313/albuns/1363786/_dsc7387.jpg" alt="Esporte fino Vittalle Speciale" loading="lazy" decoding="async"><div class="cap">Esporte Fino</div></div>
+      <div class="gallery-item" data-full="https://storage.alboom.ninja/sites/193313/albuns/1363786/_dsc7292.jpg" data-cap="Esporte Fino"><img src="https://storage.alboom.ninja/sites/193313/albuns/1363786/_dsc7292.jpg" alt="Esporte fino Vittalle Speciale" loading="lazy" decoding="async"><div class="cap">Esporte Fino</div></div>
+      <div class="gallery-item" data-full="https://storage.alboom.ninja/sites/193313/albuns/1363781/snapinsta.app_412234813_377678807978707_2633181151754693385_n_1024.jpg" data-cap="Cinto e Acessórios"><img src="https://storage.alboom.ninja/sites/193313/albuns/1363781/snapinsta.app_412234813_377678807978707_2633181151754693385_n_1024.jpg" alt="Acessório Vittalle Speciale" loading="lazy" decoding="async"><div class="cap">Cinto e Acessórios</div></div>
+      <div class="gallery-item" data-full="https://storage.alboom.ninja/sites/193313/albuns/1361570/_dsc6180.JPG" data-cap="Sapatos"><img src="https://storage.alboom.ninja/sites/193313/albuns/1361570/_dsc6180.JPG" alt="Sapato Vittalle Speciale" loading="lazy" decoding="async"><div class="cap">Sapatos</div></div>
+      <div class="gallery-item" data-full="https://storage.alboom.ninja/sites/193313/albuns/1361570/_dsc6237.JPG" data-cap="Sapatos"><img src="https://storage.alboom.ninja/sites/193313/albuns/1361570/_dsc6237.JPG" alt="Sapato Vittalle Speciale" loading="lazy" decoding="async"><div class="cap">Sapatos</div></div>
+      <div class="gallery-item" data-full="https://storage.alboom.ninja/sites/193313/albuns/1363784/snapinsta.app_325964281_898111481370570_5665566685069410926_n_1024.jpg" data-cap="Chinelo e Sandália"><img src="https://storage.alboom.ninja/sites/193313/albuns/1363784/snapinsta.app_325964281_898111481370570_5665566685069410926_n_1024.jpg" alt="Chinelo Vittalle Speciale" loading="lazy" decoding="async"><div class="cap">Chinelo e Sandália</div></div>
     </div>
   </section>
 
-  <div class="lightbox" id="lightbox">
-    <div class="lb-close" id="lbClose">Fechar ✕</div>
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Visualização ampliada">
+    <button class="lb-close" id="lbClose" type="button" aria-label="Fechar imagem">Fechar ✕</button>
     <img id="lbImg" src="" alt="">
     <div class="lb-cap" id="lbCap"></div>
   </div>
+
+  <a class="wa-float" href="https://wa.me/5521972672477?text=Ol%C3%A1%2C%20vi%20o%20site%20da%20Vittalle%20Speciale%20e%20gostaria%20de%20agendar%20uma%20prova." target="_blank" rel="noopener" aria-label="Falar com a Vittalle no WhatsApp">WhatsApp</a>
 
   <section class="location" id="local">
     <div>
@@ -553,14 +622,14 @@
         (21) 97267-2477
       </div>
       <div class="loc-actions">
-        <a class="btn-light" href="https://wa.me/5521972672477" target="_blank" rel="noopener">Chamar no WhatsApp</a>
+        <a class="btn-light" href="https://wa.me/5521972672477?text=Ol%C3%A1%2C%20vi%20o%20site%20da%20Vittalle%20Speciale%20e%20gostaria%20de%20agendar%20uma%20prova." target="_blank" rel="noopener">Chamar no WhatsApp</a>
         <a class="btn-outline-light" href="https://www.google.com/maps/place/Vittalle+Speciale/@-22.7642281,-43.4651447,17z" target="_blank" rel="noopener">Ver no mapa</a>
       </div>
     </div>
     <div>
       <div class="hours">
         <div class="hours-row"><span>Segunda a Sábado</span><span>10h – 22h</span></div>
-        <div class="hours-row"><span>Domingo e Feriados</span><span>10h – 21h</span></div>
+        <div class="hours-row"><span>Domingo e Feriados</span><span>13h – 21h</span></div>
       </div>
     </div>
   </section>
@@ -587,25 +656,49 @@
   const lightbox = document.getElementById('lightbox');
   const lbImg = document.getElementById('lbImg');
   const lbCap = document.getElementById('lbCap');
+  const lbClose = document.getElementById('lbClose');
+  let lastFocus = null;
+  function openLightbox(src, cap, alt){
+    lastFocus = document.activeElement;
+    lbImg.src = src;
+    lbImg.alt = alt || cap || '';
+    lbCap.textContent = cap || '';
+    lightbox.classList.add('open');
+    lbClose.focus();
+  }
+  function closeLightbox(){
+    lightbox.classList.remove('open');
+    if(lastFocus && lastFocus.focus) lastFocus.focus();
+  }
+  function makeActivatable(el, handler){
+    el.setAttribute('role','button');
+    el.setAttribute('tabindex','0');
+    el.addEventListener('click', handler);
+    el.addEventListener('keydown', (e) => {
+      if(e.key === 'Enter' || e.key === ' '){ e.preventDefault(); handler(e); }
+    });
+  }
   document.querySelectorAll('.gallery-item, .malha-item').forEach(item => {
-    item.addEventListener('click', () => {
+    makeActivatable(item, () => {
       const img = item.querySelector('img');
-      lbImg.src = item.dataset.full || img.src;
-      lbCap.textContent = item.dataset.cap || img.alt;
-      lightbox.classList.add('open');
+      openLightbox(item.dataset.full || img.src, item.dataset.cap || img.alt, img.alt);
     });
   });
   document.querySelectorAll('.malha-lining').forEach(link => {
-    link.addEventListener('click', (e) => {
+    makeActivatable(link, (e) => {
       e.stopPropagation();
-      lbImg.src = link.dataset.full;
-      lbCap.textContent = link.dataset.cap;
-      lightbox.classList.add('open');
+      openLightbox(link.dataset.full, link.dataset.cap, link.dataset.cap);
     });
   });
-  document.getElementById('lbClose').addEventListener('click', () => lightbox.classList.remove('open'));
-  lightbox.addEventListener('click', (e) => { if(e.target === lightbox) lightbox.classList.remove('open'); });
-  document.addEventListener('keydown', (e) => { if(e.key === 'Escape') lightbox.classList.remove('open'); });
+  document.querySelectorAll('.tick').forEach(t => {
+    makeActivatable(t, () => {
+      const target = document.querySelector(t.dataset.target);
+      if(target) target.scrollIntoView({behavior:'smooth'});
+    });
+  });
+  lbClose.addEventListener('click', closeLightbox);
+  lightbox.addEventListener('click', (e) => { if(e.target === lightbox) closeLightbox(); });
+  document.addEventListener('keydown', (e) => { if(e.key === 'Escape' && lightbox.classList.contains('open')) closeLightbox(); });
   const sections = ['#topo','#servicos','#processo','#tecidos','#local'].map(id => document.querySelector(id));
   window.addEventListener('scroll', () => {
     let current = 0;
