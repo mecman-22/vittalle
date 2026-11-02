@@ -55,3 +55,10 @@
 - Aprendido: voltam paletó de abotoamento duplo, calças mais largas com pregas e caimento mais natural; base azul/cinza/preto com verde-oliva e marfim.
 - Adaptado: pergunta "Posso pedir um corte mais atual...?" no FAQ de processo.html (HTML e JSON-LD), sem prometer prazo, preço ou tecido.
 - Descartado: mudar paleta do site; afirmar tecidos em estoque (veludo, etc.).
+
+## 2026-11-02 (9ª execução) — foco (a) referência do setor
+- Busca: alfaiataria sob medida RJ, terno, agendar prova. Novamente só diretórios (casamentos.com.br, getninjas, guiadasemana); nenhum site de concorrente aproveitável.
+- Fonte: https://www.getninjas.com.br/moda-e-beleza/alfaiate (diretório genérico, nada a adaptar).
+- Verificado: 1 único h1 por página, imagens com width/height e lazy (banner com fetchpriority), pagamento consistente em index/loja/JSON-LD.
+- Adaptado (melhoria pequena de SEO): <lastmod> 2026-11-02 em todas as URLs do sitemap.xml.
+- Descartado: copiar conteúdo de diretórios; afirmar dados não confirmados.
