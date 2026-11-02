@@ -292,6 +292,60 @@
   }
   .malha-item .malha-lining:hover{ color:var(--ink); border-color:var(--ink); }
 
+
+  /* --- Barra de avisos (Ricardo Almeida, Richards, Brooksfield) --- */
+  .announce{
+    background:var(--ink); color:var(--ivory); text-align:center;
+    font-family:'JetBrains Mono',monospace; font-size:11px; letter-spacing:0.08em;
+    text-transform:uppercase; padding:9px 4vw; line-height:1.5;
+  }
+  .announce b{ color:var(--brass); font-weight:500; }
+  .announce .sep{ opacity:.4; padding:0 10px; }
+  @media (max-width:640px){ .announce .sep{ display:none; } .announce span.i{ display:block; } }
+
+  /* --- Faixa de diferenciais (Brooksfield) --- */
+  .perks{
+    display:grid; grid-template-columns:repeat(4,1fr); gap:1px;
+    background:var(--line); border-bottom:1px solid var(--line);
+  }
+  .perk{ background:var(--paper); padding:26px 8vw 26px 28px; }
+  .perk:first-child{ padding-left:8vw; }
+  .perk .mono{ font-size:11px; color:var(--brass); display:block; margin-bottom:8px; }
+  .perk p{ font-size:13.5px; color:var(--ink-soft); line-height:1.5; }
+  .perk strong{ display:block; font-family:'Fraunces',serif; font-weight:500; font-size:17px; color:var(--ink); margin-bottom:4px; }
+  @media (max-width:900px){ .perks{ grid-template-columns:repeat(2,1fr); } .perk, .perk:first-child{ padding:22px 6vw; } }
+
+  /* --- Por ocasião (Ricardo Almeida: Casamento) --- */
+  .occasions{ padding-top:110px; }
+  .occ-grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:14px; }
+  @media (max-width:820px){ .occ-grid{ grid-template-columns:1fr; } }
+  .occ{
+    position:relative; display:block; overflow:hidden; border-radius:2px;
+    aspect-ratio:4/5; background:var(--ink);
+  }
+  @media (max-width:820px){ .occ{ aspect-ratio:16/10; } }
+  .occ img{ width:100%; height:100%; object-fit:cover; object-position:top center; opacity:.82; transition:transform .5s ease, opacity .3s ease; }
+  .occ:hover img{ transform:scale(1.05); opacity:.95; }
+  .occ .occ-txt{
+    position:absolute; left:0; right:0; bottom:0; padding:60px 24px 24px;
+    background:linear-gradient(0deg, rgba(27,31,42,0.92), transparent); color:var(--ivory);
+  }
+  .occ .occ-txt h3{ font-size:26px; margin-bottom:6px; color:var(--ivory); }
+  .occ .occ-txt span{
+    font-family:'JetBrains Mono',monospace; font-size:11px; letter-spacing:0.08em;
+    text-transform:uppercase; color:var(--brass);
+  }
+
+  /* --- Atalhos por linha de tecido (Brooksfield: compre por categoria) --- */
+  .chips{ display:flex; flex-wrap:wrap; gap:10px; margin-top:34px; }
+  .chips a{
+    border:1px solid var(--ink); border-radius:999px; padding:9px 18px;
+    font-family:'JetBrains Mono',monospace; font-size:11px; letter-spacing:0.06em;
+    text-transform:uppercase; transition:background .2s ease, color .2s ease;
+  }
+  .chips a:hover{ background:var(--ink); color:var(--ivory); }
+  .malha-sub{ scroll-margin-top:110px; }
+
   /* --- GALLERY --- */
   .gallery{ padding-top:110px; }
   .gallery-grid{
@@ -395,6 +449,12 @@
 
 <div class="wrap">
 
+  <div class="announce" role="note">
+    <span class="i"><b>Prova agendada pelo WhatsApp</b></span><span class="sep">·</span>
+    <span class="i">Ajustes pós-entrega à disposição</span><span class="sep">·</span>
+    <span class="i">Seg–Sáb 10h–22h · Dom e feriados 13h–21h</span>
+  </div>
+
   <header class="top" id="topo">
     <div class="logo">Vittalle <em>Speciale</em></div>
     <nav class="links">
@@ -432,6 +492,14 @@
     </div>
   </div>
 
+
+  <div class="perks">
+    <div class="perk"><span class="mono">01</span><strong>Sob medida de verdade</strong><p>Feito sobre as suas medidas, não as de um manequim.</p></div>
+    <div class="perk"><span class="mono">02</span><strong>Prova ao vivo</strong><p>Ajuste de caimento no seu corpo, antes do acabamento.</p></div>
+    <div class="perk"><span class="mono">03</span><strong>Do 44 ao 70</strong><p>Grade ampla de tamanhos nas linhas de tecido selecionadas.</p></div>
+    <div class="perk"><span class="mono">04</span><strong>Ajuste pós-entrega</strong><p>Retoques sempre à disposição, se a peça precisar.</p></div>
+  </div>
+
   <section id="servicos">
     <div class="section-head">
       <div>
@@ -461,6 +529,31 @@
         <h3>Acessórios</h3>
         <p>Cintos, lenços de bolso e os detalhes finais que fecham o conjunto — escolhidos junto com a peça principal.</p>
       </div>
+    </div>
+  </section>
+
+
+  <section class="occasions" id="ocasioes">
+    <div class="section-head">
+      <div>
+        <span class="tag">Por ocasião</span>
+        <h2>Comece pelo momento</h2>
+      </div>
+      <p>Conte para onde a peça vai. A gente indica o tecido e o corte certos.</p>
+    </div>
+    <div class="occ-grid">
+      <a class="occ" href="https://wa.me/5521972672477?text=Ol%C3%A1%2C%20vi%20o%20site%20da%20Vittalle%20Speciale%20e%20gostaria%20de%20fazer%20um%20terno%20para%20casamento." target="_blank" rel="noopener">
+        <img src="https://storage.alboom.ninja/sites/193313/albuns/1363777/_dsc7479.jpg" alt="Terno sob medida para casamento" loading="lazy" decoding="async">
+        <div class="occ-txt"><h3>Casamento</h3><span>Falar no WhatsApp →</span></div>
+      </a>
+      <a class="occ" href="https://wa.me/5521972672477?text=Ol%C3%A1%2C%20vi%20o%20site%20da%20Vittalle%20Speciale%20e%20gostaria%20de%20fazer%20um%20terno%20para%20formatura." target="_blank" rel="noopener">
+        <img src="https://storage.alboom.ninja/sites/193313/albuns/1363777/_dsc7510.jpg" alt="Terno sob medida para formatura" loading="lazy" decoding="async">
+        <div class="occ-txt"><h3>Formatura</h3><span>Falar no WhatsApp →</span></div>
+      </a>
+      <a class="occ" href="https://wa.me/5521972672477?text=Ol%C3%A1%2C%20vi%20o%20site%20da%20Vittalle%20Speciale%20e%20gostaria%20de%20uma%20pe%C3%A7a%20para%20o%20trabalho%20e%20o%20dia%20a%20dia." target="_blank" rel="noopener">
+        <img src="https://storage.alboom.ninja/sites/193313/albuns/1363777/_dsc7506.jpg" alt="Terno e esporte fino para o trabalho" loading="lazy" decoding="async">
+        <div class="occ-txt"><h3>Trabalho e dia a dia</h3><span>Falar no WhatsApp →</span></div>
+      </a>
     </div>
   </section>
 
@@ -514,8 +607,15 @@
       <div class="swatch" style="background:#8C9AAE; color:#1B1F2A;">Cinza claro</div>
       <div class="swatch" style="background:#A87C3F;">Caramelo</div>
     </div>
+    <nav class="chips" aria-label="Ir para uma linha de tecido">
+      <a href="#linha-fio-tinto">Fio Tinto</a>
+      <a href="#linha-elastano-liso">Elastano Liso</a>
+      <a href="#linha-oxford">Oxford</a>
+      <a href="#linha-tropical">Tropical</a>
+      <a href="#linha-la">Lã</a>
+    </nav>
 
-    <div class="malha-sub">
+    <div class="malha-sub" id="linha-fio-tinto">
       <span class="tag mono">Linha Fio Tinto</span>
       <h3>Textura sutil, tingimento no fio</h3>
       <p class="malha-desc">Tecido PV Elastano com fio tingido antes da tecelagem — resultado num acabamento levemente texturizado e uniforme, diferente do liso tradicional. Toque macio, com leve elasticidade.</p>
@@ -529,7 +629,7 @@
       </div>
     </div>
 
-    <div class="malha-sub">
+    <div class="malha-sub" id="linha-elastano-liso">
       <span class="tag mono">Linha Elastano Liso</span>
       <h3>O clássico sob medida, sem textura aparente</h3>
       <p class="malha-desc">Tecido PV Elastano liso — acabamento uniforme e discreto, a base mais versátil para cerimônia, trabalho ou uso diário. Disponível também em colete no mesmo tecido.</p>
@@ -544,7 +644,7 @@
       </div>
     </div>
 
-    <div class="malha-sub">
+    <div class="malha-sub" id="linha-oxford">
       <span class="tag mono">Linha Oxford</span>
       <h3>Tecido 100% poliéster, resistência no dia a dia</h3>
       <p class="malha-desc">Trama Oxford — mais firme e durável, ideal para quem usa o terno com frequência e precisa de uma peça que aguenta a rotina sem perder o caimento.</p>
@@ -556,7 +656,7 @@
       </div>
     </div>
 
-    <div class="malha-sub">
+    <div class="malha-sub" id="linha-tropical">
       <span class="tag mono">Linha Tropical</span>
       <h3>Leveza para o calor carioca</h3>
       <p class="malha-desc">Mistura de lã com poliéster em trama mais aberta e respirável — feito para manter o caimento formal sem pesar no dia quente.</p>
@@ -567,7 +667,7 @@
       </div>
     </div>
 
-    <div class="malha-sub">
+    <div class="malha-sub" id="linha-la">
       <span class="tag mono">Linha Lã</span>
       <h3>O tecido nobre da alfaiataria clássica</h3>
       <p class="malha-desc">Lã pura ou em mistura predominante — caimento superior e durabilidade, para quem busca a peça mais tradicional do guarda-roupa formal.</p>
