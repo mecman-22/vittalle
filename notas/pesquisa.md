@@ -41,3 +41,10 @@
 - Aprendido: reservar o espaço das imagens evita saltos de layout; o site já usava loading="lazy" e decoding="async".
 - Adaptado: width/height reais em 41 imagens sem dimensões (loja, portfólio, serviços, tecidos). CSS já define tamanhos, sem mudança visual.
 - Descartado: carrossel/depoimentos (sem conteúdo confirmado).
+
+## 2026-11-02 (7ª execução) — foco (a) referência do setor
+- Busca: etapas de prova e medidas em alfaiataria sob medida (pt-BR). Só resultados genéricos (profissão de alfaiate, cursos); nada de concorrente aproveitável.
+- Fonte: https://www.em.com.br/feminino-e-masculino/2026/08/7475770-oficio-do-alfaiate-arte-que-atravessa-geracoes.html (genérica; reforça o diálogo com o cliente antes da prova).
+- Aprendido: o cliente chega melhor quando já mostra o estilo que imagina. Site já tinha skip-link, theme-color, fetchpriority no banner e foco visível: nada a corrigir em acessibilidade/desempenho.
+- Adaptado: pergunta "Posso mandar uma foto de referência?" no FAQ de processo.html (HTML e JSON-LD), sem prometer prazo ou resultado.
+- Descartado: afirmar sobre cópia exata de modelos (não confirmado).
