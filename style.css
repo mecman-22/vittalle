@@ -481,7 +481,7 @@
   .foot-nav{ display:flex; gap:18px; flex-wrap:wrap; }
 
   /* --- banner --- */
-  .banner{ margin:0; background:#151516; line-height:0; }
+  section.banner{ margin:0; padding:0; max-width:none; background:#151516; line-height:0; }
   .banner picture{ display:block; width:100%; }
   .banner img{ width:100%; height:auto; display:block; }
   .hero{ min-height:0; grid-template-columns:1fr; padding-top:72px; }
