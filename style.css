@@ -489,3 +489,13 @@
   .hero-copy{ max-width:760px; }
   @media (max-width:700px){ .hero{ padding-top:48px; } }
   .hero + .explore{ padding-top:20px; }
+
+  /* --- impressao (endereco e horarios legiveis em papel) --- */
+  @media print{
+    nav.links, .wa-float, .strip, .skip-link, .lightbox{ display:none !important; }
+    body{ background:#fff !important; color:#000 !important; }
+    .js .reveal{ opacity:1 !important; transform:none !important; }
+    a{ color:#000 !important; text-decoration:underline; }
+    img{ max-width:100% !important; break-inside:avoid; }
+    section{ break-inside:avoid; }
+  }

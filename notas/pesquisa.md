@@ -62,3 +62,9 @@
 - Verificado: 1 único h1 por página, imagens com width/height e lazy (banner com fetchpriority), pagamento consistente em index/loja/JSON-LD.
 - Adaptado (melhoria pequena de SEO): <lastmod> 2026-11-02 em todas as URLs do sitemap.xml.
 - Descartado: copiar conteúdo de diretórios; afirmar dados não confirmados.
+
+## 2026-11-02 (10ª execução) — foco (b) conversão mobile
+- Busca: barra/botão fixo de CTA no celular para sites de moda e alfaiataria (2026). Resultados genéricos (plugins WordPress, blogs de Shopify); fonte: https://conversionsciences.com/mobile-call-to-action-buttons-best-guidelines-for-placement-copy-design/2/
+- Aprendido: CTA fixo no celular converte; o site já tem botão flutuante de WhatsApp em todas as páginas e prefers-reduced-motion tratado. Nada a duplicar.
+- Adaptado (melhoria pequena): CSS de impressão (esconde menu/botão, fundo branco) para imprimir endereço e horários da loja. style.css?v=7.
+- Descartado: barra fixa extra (redundante com o botão atual); depoimentos (sem conteúdo confirmado).
