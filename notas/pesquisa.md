@@ -20,3 +20,10 @@
 - Aprendido: verão traz alfaiataria de caimento mais leve, fibras naturais (linho, algodão) de trama arejada e tons pastel.
 - Adaptado: 4º cartão de ocasião "Peças leves para o calor" em servicos.html, com mensagem pronta de WhatsApp (grade 4 colunas / 2 no tablet / 1 no celular). Sem afirmar tecidos ou prazos específicos.
 - Descartado: afirmar quais tecidos a loja tem em estoque (não confirmado); mudar paleta do site.
+
+## 2026-11-02 (4ª execução) — foco (a) referência do setor
+- Busca: alfaiataria sob medida RJ, terno, agendar prova. Resultado: só diretórios (casamentos.com.br, getninjas), sem site de concorrente aproveitável.
+- Fonte: https://www.casamentos.com.br/roupa-noivo/garbani-alfaiataria--e258997
+- Aprendido: alfaiatarias de noivo são buscadas por casamento; reforça a ocasião Casamento/Formatura com data do evento.
+- Adaptado: mensagens prontas de WhatsApp de Casamento e Formatura (servicos.html) agora dizem "Posso informar a data do evento", alinhado à nota da 2ª execução.
+- Descartado: copiar conteúdo de diretórios; afirmar pacotes de noivo/padrinhos (não confirmado).
