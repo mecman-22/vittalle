@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
+Disallow: /vittalle/notas/
 Sitemap: https://mecman-22.github.io/vittalle/sitemap.xml
