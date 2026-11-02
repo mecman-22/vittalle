@@ -74,3 +74,10 @@
 - Fonte: https://www.truefuturemedia.com/articles/google-business-profile-optimization-checklist-2026 (genérica: consistência de dados e fotos recentes).
 - Adaptado (melhoria pequena): 404.html própria (GitHub Pages a usa), com <base href="/vittalle/">, noindex, menu, voltar ao início e WhatsApp. Fora do sitemap.
 - Descartado: priceRange/avaliações (não confirmados).
+
+## 2026-11-02 (12ª execução) — foco (d) tendência de moda masculina
+- Busca: tendências de alfaiataria masculina verão 2026/27; leitura de matéria sobre alfaiataria no dia a dia no calor.
+- Fonte: https://www.em.com.br/feminino-e-masculino/2026/07/7470834-alfaiataria-todos-os-dias-dicas-para-um-look-elegante-sem-passar-calor.html
+- Aprendido: tendência de misturar peças de alfaiataria (blazer, calça) com looks casuais e modelagens mais soltas.
+- Adaptado: pergunta "Posso pedir peças separadas...para usar no dia a dia?" no FAQ de processo.html (HTML e JSON-LD), sem prometer prazo, preço ou tecido.
+- Descartado: cores/tecidos específicos (não confirmados em estoque); mudar paleta.
