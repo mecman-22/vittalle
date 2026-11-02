@@ -6,3 +6,10 @@
 - Aprendido: dados estruturados ajudam buscadores a entender negócio local; o site já tinha ClothingStore (index) e FAQPage (processo).
 - Adaptado: BreadcrumbList JSON-LD nas 5 páginas internas, robots.txt com Disallow /vittalle/notas/.
 - Descartado: copiar texto de diretórios/concorrentes.
+
+## 2026-11-02 (2ª execução) — foco (b) conversão
+- Busca: conversão e agendamento em sites de alfaiataria sob medida.
+- Fonte: https://kolonell.com/en/blog/lome-bazin-made-to-measure-tailoring-order-intake-website-2026
+- Aprendido: WhatsApp é o canal central; pedidos chegam melhores com ocasião e data do evento já informadas, evitando idas e vindas.
+- Adaptado: pergunta "O que devo contar ao chamar no WhatsApp?" no FAQ de processo.html (HTML e JSON-LD). Os cartões de ocasião em servicos.html já têm mensagem pronta.
+- Descartado: formulário/rastreio automático (exige backend e dados que não temos).
