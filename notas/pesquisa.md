@@ -48,3 +48,10 @@
 - Aprendido: o cliente chega melhor quando já mostra o estilo que imagina. Site já tinha skip-link, theme-color, fetchpriority no banner e foco visível: nada a corrigir em acessibilidade/desempenho.
 - Adaptado: pergunta "Posso mandar uma foto de referência?" no FAQ de processo.html (HTML e JSON-LD), sem prometer prazo ou resultado.
 - Descartado: afirmar sobre cópia exata de modelos (não confirmado).
+
+## 2026-11-02 (8ª execução) — foco (d) tendência de moda masculina
+- Busca: tendências de terno/alfaiataria masculina 2026.
+- Fonte: https://forbes.com.br/forbeslife/2026/01/comece-2026-com-estas-tendencias-de-moda-masculina/
+- Aprendido: voltam paletó de abotoamento duplo, calças mais largas com pregas e caimento mais natural; base azul/cinza/preto com verde-oliva e marfim.
+- Adaptado: pergunta "Posso pedir um corte mais atual...?" no FAQ de processo.html (HTML e JSON-LD), sem prometer prazo, preço ou tecido.
+- Descartado: mudar paleta do site; afirmar tecidos em estoque (veludo, etc.).
