@@ -27,3 +27,10 @@
 - Aprendido: alfaiatarias de noivo são buscadas por casamento; reforça a ocasião Casamento/Formatura com data do evento.
 - Adaptado: mensagens prontas de WhatsApp de Casamento e Formatura (servicos.html) agora dizem "Posso informar a data do evento", alinhado à nota da 2ª execução.
 - Descartado: copiar conteúdo de diretórios; afirmar pacotes de noivo/padrinhos (não confirmado).
+
+## 2026-11-02 (5ª execução) — foco (c) SEO local / Google Meu Negócio
+- Busca: boas práticas de Google Business Profile para loja física 2026 (fotos, horários, atributos).
+- Fonte: https://ustechautomations.com/resources/blog/google-business-profile-optimization-for-retail-stores-2026
+- Aprendido: consistência de nome/endereço/telefone/horário entre site e perfil e sinais de área atendida ajudam busca local. O site já tem ClothingStore com horários, geo, hasMap, pagamento e botão Como chegar.
+- Adaptado: areaServed (Nova Iguaçu e Baixada Fluminense) no JSON-LD da página inicial.
+- Descartado: priceRange e avaliações (não confirmados). Lembrete ao Mec: manter horário/fotos do Perfil da Empresa no Google iguais ao site.
