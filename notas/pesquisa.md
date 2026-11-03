@@ -200,3 +200,8 @@
 - Tentativa: WebFetch de https://www.camisariaturquesa.com.br/alfaiataria/ e https://difranchesco.com/ bloqueado de novo (permissão não respondida em execução automática). Buscas só retornaram diretórios (casamentos.com.br, getninjas) e artigos genéricos; nada aproveitável.
 - Adaptado: nenhuma mudança no site (nada novo e seguro sem inventar fatos).
 - Pendentes de leitura: flowerhomme, cristinacarneiro, camisariaturquesa, difranchesco, eluiz-simas, ricardoalmeida, zegna. Precisa de liberação de acesso de leitura a esses domínios.
+
+## 2026-11-03 (34ª execução) — fontes do Mec: ricardoalmeida e zegna
+- Tentativa: WebFetch de https://www.ricardoalmeida.com.br/ e https://www.zegna.com/pt-pt/ bloqueado (permissão não respondida em execução automática). Nada lido.
+- Adaptado: nenhuma mudança no site (nada novo e seguro sem inventar fatos).
+- Pendentes de leitura: todas as 9 fontes (acesso de leitura bloqueado). Precisa de liberação de acesso aos domínios da lista.
