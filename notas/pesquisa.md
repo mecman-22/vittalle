@@ -124,3 +124,9 @@
 - Verificado (auditoria): ?v= consistente (style.css v=7, app.js v=1) em todas as páginas; fontes com display=swap e preconnect; todas as imagens com alt; theme-color em todas; og/twitter nas páginas indexáveis; robots.txt com Disallow /vittalle/notas/.
 - Adaptado: nenhuma mudança no site nesta execução (nada seguro a melhorar sem inventar fatos).
 - Descartado: efeitos de tendência (animações pesadas) por desempenho no celular.
+
+## 2026-11-03 (20ª execução) — foco (a) referência do setor
+- Busca: alfaiataria sob medida RJ, terno, esporte fino. De novo só diretórios (getninjas, casamentos.com.br, telelistas); nenhum site de concorrente aproveitável.
+- Verificado: aria-current no menu das 6 páginas, lang pt-BR, rel="noopener" em todos os links target=_blank. Nada a corrigir.
+- Adaptado: nenhuma mudança no site (nada seguro e novo sem inventar fatos).
+- Descartado: copiar diretórios; novas seções sem conteúdo confirmado.
