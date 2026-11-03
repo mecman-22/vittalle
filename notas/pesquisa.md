@@ -152,3 +152,8 @@
 - Busca: alfaiataria sob medida RJ, terno, esporte fino, agendar prova por WhatsApp. De novo só diretórios (getninjas, cronoshare, casamentos.com.br, guiadasemana); nenhum site de concorrente aproveitável.
 - Adaptado: nenhuma mudança no site (nada novo e seguro sem inventar fatos; site já auditado nas execuções 19–23).
 - Descartado: copiar diretórios; novas seções sem conteúdo confirmado.
+
+## 2026-11-03 (25ª execução) — foco (a) referência do setor
+- Busca: alfaiataria sob medida RJ, terno, agendamento por WhatsApp. Mais uma vez só diretórios (getninjas, casamentos.com.br, cronoshare); nenhum site de concorrente aproveitável.
+- Adaptado: nenhuma mudança no site (nada novo e seguro sem inventar fatos; site já auditado). Sugestão: alternar o foco para (c)/(d) em vez de repetir (a), que não rende resultados.
+- Descartado: copiar diretórios.
