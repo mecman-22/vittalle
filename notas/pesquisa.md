@@ -141,3 +141,9 @@
 - Busca: tendências de alfaiataria masculina verão 2026/27 (cores, tecidos). Fontes: https://elle.com.br/moda/10-tendencias-do-verao-2026-masculino e https://forbes.com.br/forbeslife/2026/01/comece-2026-com-estas-tendencias-de-moda-masculina/ (resultados genéricos, tons pastel e novas combinações, já registrados na 14ª execução).
 - Adaptado: nenhuma mudança no site (nada novo e seguro sem afirmar cores/tecidos em estoque).
 - Descartado: mudar paleta; citar tendências como oferta da loja.
+
+## 2026-11-03 (23ª execução) — foco (b) etapas "como funciona"
+- Busca: seção de etapas/prova/WhatsApp em sites de alfaiataria sob medida. Só artigos e diretórios (em.com.br sobre o ofício do alfaiate, querobolsa, getninjas, neofeed); nenhum site de concorrente aproveitável.
+- Verificado: link de pular ao conteúdo, prefers-reduced-motion e loading=lazy já presentes; processo.html já tem as etapas.
+- Adaptado: nenhuma mudança no site (nada novo e seguro sem inventar fatos).
+- Descartado: copiar artigos/diretórios; prazos de etapas (não confirmados).
