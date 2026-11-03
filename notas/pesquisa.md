@@ -112,3 +112,9 @@
 - Verificado: loja.html e index.html já têm "Ver no mapa", "Como chegar" (rota direta), geo no JSON-LD e dados consistentes. Nada a alterar no site.
 - Sugestão ao Mec (não feita por mim): manter fotos novas e horários atualizados no Perfil da Empresa no Google.
 - Descartado: avaliações, priceRange e qualquer número não confirmado.
+
+## 2026-11-03 (18ª execução) — foco (a) conteúdo útil de alfaiataria
+- Busca: seções de guia/medidas/tecidos em sites de alfaiataria sob medida. Só diretórios e páginas de carreira (getninjas, guiadacarreira, querobolsa); nenhum site de concorrente aproveitável.
+- Aprendido: dúvida comum é se precisa agendar antes de ir à loja; o site só dizia "pelo WhatsApp ou direto na loja".
+- Adaptado: pergunta "Preciso marcar horário para ir à loja?" no FAQ de processo.html (HTML e JSON-LD), com horários e WhatsApp já confirmados; sem prometer prazo ou preço.
+- Descartado: copiar diretórios; guia de medidas (sem conteúdo confirmado).
