@@ -93,3 +93,9 @@
 - Aprendido: nesta época cresce a procura por looks para confraternizações e festas; pedir a data cedo ajuda no planejamento.
 - Adaptado: pergunta "Posso pedir um traje para confraternização ou festa de fim de ano?" no FAQ de processo.html (HTML e JSON-LD), sem prometer prazo, preço ou tecido.
 - Descartado: afirmar cores/tecidos em estoque; mudar paleta.
+
+## 2026-11-03 (15ª execução) — foco (b) galeria por ocasião
+- Busca: galeria de alfaiataria com filtro por ocasião (noivo, social). Só diretórios (casamentos.com.br, guiadasemana); nenhum site de concorrente aproveitável.
+- Aprendido: nada novo; a página de serviços já organiza por ocasião e o portfólio tem lightbox.
+- Adaptado (manutenção de SEO): <lastmod> do sitemap.xml atualizado para 2026-11-03, após as mudanças de FAQ/WhatsApp do dia.
+- Descartado: filtro de galeria com JS (sem fotos categorizadas confirmadas); copiar diretórios.
