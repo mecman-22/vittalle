@@ -163,3 +163,8 @@
 - Adaptado: nenhuma mudança no site. Prova social exigiria depoimentos/fotos de clientes reais, não confirmados.
 - Sugestão ao Mec: enviar fotos de clientes (com autorização) e depoimentos reais para uma futura seção de prova social.
 - Descartado: depoimentos inventados; copiar diretórios.
+
+## 2026-11-03 (27ª execução) — foco (c) SEO local
+- Busca: SEO local 2026, schema LocalBusiness, horário especial. Fontes: https://dev.to/1234vsdd/local-seo-in-2026-how-local-businesses-dominate-both-search-and-ai-results-598l e https://docs.squirrelscan.com/rules/schema/local-business (genéricas; recomendam NAP consistente e JSON-LD, já feitos).
+- Adaptado: nenhuma mudança no site (JSON-LD, geo e horários já presentes; nada novo e seguro sem inventar fatos).
+- Descartado: horários especiais de feriado (não confirmados).
