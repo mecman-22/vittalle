@@ -179,3 +179,9 @@
 - Busca: terno para casamento de dia, cores e tecidos leves para clima quente. Fontes: https://www.em.com.br/feminino-e-masculino/2026/07/7470834-alfaiataria-todos-os-dias-dicas-para-um-look-elegante-sem-passar-calor.html e https://www.casamentos.com.br/artigos/traje-claro-x-traje-escuro-para-o-noivo--c10096 (artigos genéricos; claro de dia, escuro à noite).
 - Adaptado: nenhuma mudança no site (site já tem ocasião Casamento com WhatsApp; recomendar tecidos/cores exigiria afirmar estoque não confirmado).
 - Descartado: guia de traje por horário sem validação do Mec.
+
+## 2026-11-03 (30ª execução) — foco (a) referência do setor
+- Busca: alfaiataria masculina sob medida RJ, agendar prova. Só diretórios e artigos (getninjas, casamentos.com.br, guiadasemana, guiadacarreira); nenhum site de concorrente aproveitável.
+- Verificado: links de WhatsApp com mensagem pré-preenchida de agendamento presentes em todas as páginas.
+- Adaptado: nenhuma mudança no site (nada novo e seguro sem inventar fatos).
+- Descartado: copiar diretórios.
