@@ -147,3 +147,8 @@
 - Verificado: link de pular ao conteúdo, prefers-reduced-motion e loading=lazy já presentes; processo.html já tem as etapas.
 - Adaptado: nenhuma mudança no site (nada novo e seguro sem inventar fatos).
 - Descartado: copiar artigos/diretórios; prazos de etapas (não confirmados).
+
+## 2026-11-03 (24ª execução) — foco (a) referência do setor
+- Busca: alfaiataria sob medida RJ, terno, esporte fino, agendar prova por WhatsApp. De novo só diretórios (getninjas, cronoshare, casamentos.com.br, guiadasemana); nenhum site de concorrente aproveitável.
+- Adaptado: nenhuma mudança no site (nada novo e seguro sem inventar fatos; site já auditado nas execuções 19–23).
+- Descartado: copiar diretórios; novas seções sem conteúdo confirmado.
