@@ -157,3 +157,9 @@
 - Busca: alfaiataria sob medida RJ, terno, agendamento por WhatsApp. Mais uma vez só diretórios (getninjas, casamentos.com.br, cronoshare); nenhum site de concorrente aproveitável.
 - Adaptado: nenhuma mudança no site (nada novo e seguro sem inventar fatos; site já auditado). Sugestão: alternar o foco para (c)/(d) em vez de repetir (a), que não rende resultados.
 - Descartado: copiar diretórios.
+
+## 2026-11-03 (26ª execução) — foco (b) prova social / conversão
+- Busca: alfaiataria sob medida, conversão por WhatsApp, prova social, fotos de clientes 2026. Só diretórios e artigos genéricos (cronoshare, getninjas, querobolsa, exame, neofeed); nenhum site de concorrente aproveitável.
+- Adaptado: nenhuma mudança no site. Prova social exigiria depoimentos/fotos de clientes reais, não confirmados.
+- Sugestão ao Mec: enviar fotos de clientes (com autorização) e depoimentos reais para uma futura seção de prova social.
+- Descartado: depoimentos inventados; copiar diretórios.
