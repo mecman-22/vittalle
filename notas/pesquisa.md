@@ -81,3 +81,9 @@
 - Aprendido: tendência de misturar peças de alfaiataria (blazer, calça) com looks casuais e modelagens mais soltas.
 - Adaptado: pergunta "Posso pedir peças separadas...para usar no dia a dia?" no FAQ de processo.html (HTML e JSON-LD), sem prometer prazo, preço ou tecido.
 - Descartado: cores/tecidos específicos (não confirmados em estoque); mudar paleta.
+
+## 2026-11-03 (13ª execução) — foco (b) agendamento por WhatsApp
+- Busca: fluxo de agendamento de prova por WhatsApp em alfaiatarias. Só diretórios (casamentos.com.br, getninjas); artigo do socialhub.pro não pôde ser lido (erro de acesso).
+- Aprendido (geral): facilitar o agendamento pedindo já o melhor dia/horário reduz idas e vindas na conversa.
+- Adaptado: mensagem pronta "Agendar prova" (todas as páginas) agora termina com "Posso informar o melhor dia e horário?". Sem prometer prazo ou preço.
+- Descartado: formulário/calendário online (sem backend; CSP restrita).
