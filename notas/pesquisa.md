@@ -195,3 +195,8 @@
 - Tentativa: WebFetch de https://www.flowerhomme.com.br/ e https://cristinacarneiro.com.br/ foi bloqueado (permissão não concedida em execução automática); buscas por esses domínios só retornaram diretórios (getninjas, casamentos.com.br), nada aproveitável.
 - Adaptado: nenhuma mudança no site. Fontes 3 e 4 seguem pendentes de leitura; próximas: camisariaturquesa, difranchesco, eluiz-simas, ricardoalmeida, zegna.
 - Sugestão ao Mec: se possível, liberar o acesso de leitura a esses domínios para as próximas execuções.
+
+## 2026-11-03 (33ª execução) — fontes do Mec: camisariaturquesa e difranchesco
+- Tentativa: WebFetch de https://www.camisariaturquesa.com.br/alfaiataria/ e https://difranchesco.com/ bloqueado de novo (permissão não respondida em execução automática). Buscas só retornaram diretórios (casamentos.com.br, getninjas) e artigos genéricos; nada aproveitável.
+- Adaptado: nenhuma mudança no site (nada novo e seguro sem inventar fatos).
+- Pendentes de leitura: flowerhomme, cristinacarneiro, camisariaturquesa, difranchesco, eluiz-simas, ricardoalmeida, zegna. Precisa de liberação de acesso de leitura a esses domínios.
