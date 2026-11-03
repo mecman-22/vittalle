@@ -190,3 +190,8 @@
 - Analisadas: https://merinoalfaiataria.com.br/ e https://sartocavalieri.com/. Aprendi: CTA de agendar visita repetido perto do fim da página; nenhum dos dois usa escassez/urgência nem prova social.
 - Adaptado: bloco "Evento chegando?" na index com CTA de WhatsApp (mensagem própria sobre data marcada). Urgência apenas por tempo de confecção, sem prazos, vagas ou números (não confirmados).
 - Pendente p/ Mec: se houver escassez real (horários de prova da semana, peças/tecidos limitados), informar para entrar no site. Próximas fontes: flowerhomme, cristinacarneiro, camisariaturquesa, difranchesco, eluiz-simas, ricardoalmeida, zegna.
+
+## 2026-11-03 (32ª execução) — fontes do Mec: flowerhomme e cristinacarneiro
+- Tentativa: WebFetch de https://www.flowerhomme.com.br/ e https://cristinacarneiro.com.br/ foi bloqueado (permissão não concedida em execução automática); buscas por esses domínios só retornaram diretórios (getninjas, casamentos.com.br), nada aproveitável.
+- Adaptado: nenhuma mudança no site. Fontes 3 e 4 seguem pendentes de leitura; próximas: camisariaturquesa, difranchesco, eluiz-simas, ricardoalmeida, zegna.
+- Sugestão ao Mec: se possível, liberar o acesso de leitura a esses domínios para as próximas execuções.
