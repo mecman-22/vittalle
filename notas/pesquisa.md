@@ -185,3 +185,8 @@
 - Verificado: links de WhatsApp com mensagem pré-preenchida de agendamento presentes em todas as páginas.
 - Adaptado: nenhuma mudança no site (nada novo e seguro sem inventar fatos).
 - Descartado: copiar diretórios.
+
+## 2026-11-03 (31ª execução) — fontes indicadas pelo Mec (notas/fontes.md)
+- Analisadas: https://merinoalfaiataria.com.br/ e https://sartocavalieri.com/. Aprendi: CTA de agendar visita repetido perto do fim da página; nenhum dos dois usa escassez/urgência nem prova social.
+- Adaptado: bloco "Evento chegando?" na index com CTA de WhatsApp (mensagem própria sobre data marcada). Urgência apenas por tempo de confecção, sem prazos, vagas ou números (não confirmados).
+- Pendente p/ Mec: se houver escassez real (horários de prova da semana, peças/tecidos limitados), informar para entrar no site. Próximas fontes: flowerhomme, cristinacarneiro, camisariaturquesa, difranchesco, eluiz-simas, ricardoalmeida, zegna.
