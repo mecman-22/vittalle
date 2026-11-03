@@ -168,3 +168,9 @@
 - Busca: SEO local 2026, schema LocalBusiness, horário especial. Fontes: https://dev.to/1234vsdd/local-seo-in-2026-how-local-businesses-dominate-both-search-and-ai-results-598l e https://docs.squirrelscan.com/rules/schema/local-business (genéricas; recomendam NAP consistente e JSON-LD, já feitos).
 - Adaptado: nenhuma mudança no site (JSON-LD, geo e horários já presentes; nada novo e seguro sem inventar fatos).
 - Descartado: horários especiais de feriado (não confirmados).
+
+## 2026-11-03 (28ª execução) — foco (c) Google Meu Negócio
+- Busca: dicas de Perfil da Empresa no Google 2026 (mensagens, WhatsApp, fotos). Fontes: https://www.brightlocal.com/learn/google-business-messages-complete-guide/ e https://support.google.com/business/answer/15934070 (genéricas; o recurso de mensagens depende do Perfil, não do site).
+- Verificado: pagamentos (cartão, Pix etc.) já em index, loja e processo; robots.txt com Disallow /vittalle/notas/.
+- Adaptado: nenhuma mudança no site (nada novo e seguro sem inventar fatos).
+- Sugestão ao Mec: manter o WhatsApp e fotos recentes atualizados no Perfil da Empresa no Google.
