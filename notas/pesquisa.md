@@ -105,3 +105,10 @@
 - Aprendido: eventos em grupo (padrinhos, amigos) são comuns na categoria; avisar data e número de pessoas cedo ajuda a organizar provas.
 - Adaptado: pergunta "Posso pedir trajes para um grupo...?" no FAQ de processo.html (HTML e JSON-LD), sem prometer prazo, preço ou desconto.
 - Descartado: copiar diretórios; qualquer número ou condição para grupos (não confirmados).
+
+## 2026-11-03 (17ª execução) — foco (c) SEO local / Google Meu Negócio
+- Busca: otimização de Perfil da Empresa no Google para loja física (fotos, horários, perguntas e respostas). Fontes: https://www.mercadopago.com.br/blog/google-meu-negocio-atrair-clientes-loja-fisica e https://sebraepr.com.br/?p=133776 (resultados genéricos, já cobertos na 5ª e 11ª execuções).
+- Aprendido: manter nome, endereço, telefone e horários iguais no site e no perfil; fotos recentes e links de rota ajudam.
+- Verificado: loja.html e index.html já têm "Ver no mapa", "Como chegar" (rota direta), geo no JSON-LD e dados consistentes. Nada a alterar no site.
+- Sugestão ao Mec (não feita por mim): manter fotos novas e horários atualizados no Perfil da Empresa no Google.
+- Descartado: avaliações, priceRange e qualquer número não confirmado.
