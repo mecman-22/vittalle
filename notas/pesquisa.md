@@ -130,3 +130,9 @@
 - Verificado: aria-current no menu das 6 páginas, lang pt-BR, rel="noopener" em todos os links target=_blank. Nada a corrigir.
 - Adaptado: nenhuma mudança no site (nada seguro e novo sem inventar fatos).
 - Descartado: copiar diretórios; novas seções sem conteúdo confirmado.
+
+## 2026-11-03 (21ª execução) — foco (a) referência do setor
+- Busca: como escolher terno sob medida / o que perguntar ao alfaiate. Só diretórios e páginas genéricas (getninjas, casamentos.com.br, guiadacarreira); nenhum site de concorrente aproveitável. Fonte: https://oimparcial.com.br/negocios/2025/04/como-escolher-e-usar-terno-dicas-essenciais-para-acertar/ (genérica).
+- Verificado: og:image/twitter:card presentes nas 5 páginas indexáveis e na 404; FAQ já cobre consulta, referência, grupo, festa, horário.
+- Adaptado: nenhuma mudança no site (nada seguro e novo sem inventar fatos).
+- Descartado: perguntas sobre preço/ajustes de peças de terceiros (serviços e preços não confirmados).
