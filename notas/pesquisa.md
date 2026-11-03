@@ -87,3 +87,9 @@
 - Aprendido (geral): facilitar o agendamento pedindo já o melhor dia/horário reduz idas e vindas na conversa.
 - Adaptado: mensagem pronta "Agendar prova" (todas as páginas) agora termina com "Posso informar o melhor dia e horário?". Sem prometer prazo ou preço.
 - Descartado: formulário/calendário online (sem backend; CSP restrita).
+
+## 2026-11-03 (14ª execução) — foco (d) tendência de moda masculina
+- Busca: alfaiataria/terno masculino para festas e confraternizações de fim de ano 2026. Fonte: https://elle.com.br/?p=66839 (looks de confraternização de fim de ano); Forbes/Itatiaia (tons pastel, novas combinações).
+- Aprendido: nesta época cresce a procura por looks para confraternizações e festas; pedir a data cedo ajuda no planejamento.
+- Adaptado: pergunta "Posso pedir um traje para confraternização ou festa de fim de ano?" no FAQ de processo.html (HTML e JSON-LD), sem prometer prazo, preço ou tecido.
+- Descartado: afirmar cores/tecidos em estoque; mudar paleta.
