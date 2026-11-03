@@ -136,3 +136,8 @@
 - Verificado: og:image/twitter:card presentes nas 5 páginas indexáveis e na 404; FAQ já cobre consulta, referência, grupo, festa, horário.
 - Adaptado: nenhuma mudança no site (nada seguro e novo sem inventar fatos).
 - Descartado: perguntas sobre preço/ajustes de peças de terceiros (serviços e preços não confirmados).
+
+## 2026-11-03 (22ª execução) — foco (d) tendência de moda masculina
+- Busca: tendências de alfaiataria masculina verão 2026/27 (cores, tecidos). Fontes: https://elle.com.br/moda/10-tendencias-do-verao-2026-masculino e https://forbes.com.br/forbeslife/2026/01/comece-2026-com-estas-tendencias-de-moda-masculina/ (resultados genéricos, tons pastel e novas combinações, já registrados na 14ª execução).
+- Adaptado: nenhuma mudança no site (nada novo e seguro sem afirmar cores/tecidos em estoque).
+- Descartado: mudar paleta; citar tendências como oferta da loja.
