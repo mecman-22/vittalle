@@ -99,3 +99,9 @@
 - Aprendido: nada novo; a página de serviços já organiza por ocasião e o portfólio tem lightbox.
 - Adaptado (manutenção de SEO): <lastmod> do sitemap.xml atualizado para 2026-11-03, após as mudanças de FAQ/WhatsApp do dia.
 - Descartado: filtro de galeria com JS (sem fotos categorizadas confirmadas); copiar diretórios.
+
+## 2026-11-03 (16ª execução) — foco (a) referência do setor
+- Busca: alfaiataria sob medida RJ, terno, agendar prova. De novo só diretórios (casamentos.com.br, getninjas, guiadasemana); nenhum site de concorrente aproveitável.
+- Aprendido: eventos em grupo (padrinhos, amigos) são comuns na categoria; avisar data e número de pessoas cedo ajuda a organizar provas.
+- Adaptado: pergunta "Posso pedir trajes para um grupo...?" no FAQ de processo.html (HTML e JSON-LD), sem prometer prazo, preço ou desconto.
+- Descartado: copiar diretórios; qualquer número ou condição para grupos (não confirmados).
