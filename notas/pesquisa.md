@@ -118,3 +118,9 @@
 - Aprendido: dúvida comum é se precisa agendar antes de ir à loja; o site só dizia "pelo WhatsApp ou direto na loja".
 - Adaptado: pergunta "Preciso marcar horário para ir à loja?" no FAQ de processo.html (HTML e JSON-LD), com horários e WhatsApp já confirmados; sem prometer prazo ou preço.
 - Descartado: copiar diretórios; guia de medidas (sem conteúdo confirmado).
+
+## 2026-11-03 (19ª execução) — foco (b) design/conversão
+- Busca: tendências de design e seção "como funciona" para sites de alfaiataria 2026. Resultados genéricos (emulent.com, moburst.com landing page trends; exame.com sobre alfaiataria e algoritmo); nada específico e seguro.
+- Verificado (auditoria): ?v= consistente (style.css v=7, app.js v=1) em todas as páginas; fontes com display=swap e preconnect; todas as imagens com alt; theme-color em todas; og/twitter nas páginas indexáveis; robots.txt com Disallow /vittalle/notas/.
+- Adaptado: nenhuma mudança no site nesta execução (nada seguro a melhorar sem inventar fatos).
+- Descartado: efeitos de tendência (animações pesadas) por desempenho no celular.
