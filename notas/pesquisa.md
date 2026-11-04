@@ -307,3 +307,8 @@
 - Tentativa: WebFetch de https://eluiz-simas-alfaiataria.ueniweb.com/ e https://difranchesco.com/ bloqueado de novo (PROVENANCE_REQUIRED). Nada lido.
 - Adaptado: nenhuma mudança no site.
 - Pendentes de leitura: 8 fontes (só sartocavalieri foi lida). Precisa de liberação de acesso aos domínios da lista.
+
+## 2026-11-04 (55ª execução) — fontes do Mec: zegna e ricardoalmeida
+- Tentativa: WebFetch de https://www.zegna.com/pt-pt/ e https://www.ricardoalmeida.com.br/ bloqueado de novo (PROVENANCE_REQUIRED, permissão não respondida). Nada lido.
+- Adaptado: nenhuma mudança no site.
+- Pendentes de leitura: 8 fontes (só sartocavalieri foi lida). Precisa de liberação de acesso aos domínios da lista.
