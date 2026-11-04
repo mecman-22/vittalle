@@ -287,3 +287,8 @@
 - Tentativa: WebFetch de https://difranchesco.com/ e https://www.zegna.com/pt-pt/ bloqueado de novo (PROVENANCE_REQUIRED). Nada lido.
 - Adaptado: nenhuma mudança no site.
 - Pendentes de leitura: 8 fontes (só sartocavalieri foi lida). Precisa de liberação de acesso aos domínios da lista.
+
+## 2026-11-04 (51ª execução) — fontes do Mec: merinoalfaiataria e ricardoalmeida
+- Tentativa: WebFetch de https://merinoalfaiataria.com.br/ e https://www.ricardoalmeida.com.br/ bloqueado de novo (PROVENANCE_REQUIRED). Nada lido.
+- Adaptado: nenhuma mudança no site.
+- Pendentes de leitura: 8 fontes (só sartocavalieri foi lida). Precisa de liberação de acesso aos domínios da lista.
