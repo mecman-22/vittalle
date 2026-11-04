@@ -292,3 +292,8 @@
 - Tentativa: WebFetch de https://merinoalfaiataria.com.br/ e https://www.ricardoalmeida.com.br/ bloqueado de novo (PROVENANCE_REQUIRED). Nada lido.
 - Adaptado: nenhuma mudança no site.
 - Pendentes de leitura: 8 fontes (só sartocavalieri foi lida). Precisa de liberação de acesso aos domínios da lista.
+
+## 2026-11-04 (52ª execução) — fontes do Mec: merinoalfaiataria e flowerhomme
+- Tentativa: WebFetch de https://merinoalfaiataria.com.br/ e https://www.flowerhomme.com.br/ bloqueado de novo (PROVENANCE_REQUIRED). Nada lido.
+- Adaptado: nenhuma mudança no site.
+- Pendentes de leitura: 8 fontes (só sartocavalieri foi lida). Precisa de liberação de acesso aos domínios da lista.
