@@ -319,3 +319,9 @@
 - Lido: zegna.com/pt-pt — seção "Ao seu serviço" com 3 cartões (sob medida, ajustes na loja com agendamento, consultoria de estilo); localizador de loja com horários.
 - Decisão: a Vittalle já tem WhatsApp pré-preenchido por ocasião, agendamento, bloco Evento chegando e catálogo de tecidos. Ideia futura (não aplicada): cartões "Ao seu serviço" (sob medida, ajustes, consultoria) em servicos.html. Nenhuma escassez real confirmada; nada inventado.
 - Pendentes: flowerhomme, cristinacarneiro, camisariaturquesa, difranchesco, eluiz-simas (sartocavalieri já lida).
+
+## 2026-11-04 (57ª execução) — fontes do Mec: flowerhomme e cristinacarneiro
+- Tentativa: WebFetch de https://www.flowerhomme.com.br/ e https://cristinacarneiro.com.br/ bloqueado (PROVENANCE_REQUIRED, permissão não respondida). Nada lido.
+- Verificado: servicos.html já cobre sob medida, ajustes e reparos; ideia "Ao seu serviço" da 56ª já está atendida, nada a acrescentar.
+- Adaptado: nenhuma mudança no site.
+- Pendentes de leitura: flowerhomme, cristinacarneiro, camisariaturquesa, difranchesco, eluiz-simas.
