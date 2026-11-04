@@ -272,3 +272,8 @@
 - Aprendido: CTA final de agendamento + contato direto é o foco. A Vittalle já tem "Agendar prova" no banner, bloco Evento chegando e no processo; nada a adicionar.
 - Adaptado: nenhuma mudança no site. Escassez real continua pendente do Mec.
 - Pendentes de leitura: as outras 8 fontes (a busca genérica só trouxe diretórios).
+
+## 2026-11-04 (48ª execução) — fonte do Mec: cristinacarneiro
+- Tentativa: WebFetch de https://cristinacarneiro.com.br/ bloqueado (PROVENANCE_REQUIRED). Nada lido.
+- Adaptado: nenhuma mudança no site.
+- Pendentes de leitura: 8 fontes (só sartocavalieri foi lida). Precisa de liberação de acesso aos domínios da lista.
