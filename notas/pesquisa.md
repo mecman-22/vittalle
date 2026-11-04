@@ -282,3 +282,8 @@
 - Tentativa: WebFetch de https://www.flowerhomme.com.br/ e https://www.camisariaturquesa.com.br/alfaiataria/ bloqueado de novo (PROVENANCE_REQUIRED). Nada lido.
 - Adaptado: nenhuma mudança no site.
 - Pendentes de leitura: 8 fontes (só sartocavalieri foi lida). Precisa de liberação de acesso aos domínios da lista.
+
+## 2026-11-04 (50ª execução) — fontes do Mec: difranchesco e zegna
+- Tentativa: WebFetch de https://difranchesco.com/ e https://www.zegna.com/pt-pt/ bloqueado de novo (PROVENANCE_REQUIRED). Nada lido.
+- Adaptado: nenhuma mudança no site.
+- Pendentes de leitura: 8 fontes (só sartocavalieri foi lida). Precisa de liberação de acesso aos domínios da lista.
