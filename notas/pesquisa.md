@@ -266,3 +266,9 @@
 - Tentativa: WebFetch de https://merinoalfaiataria.com.br/ bloqueado (PROVENANCE_REQUIRED). WebSearch genérica retornou diretórios; a única página útil (blog socialhub) falhou ao buscar. Nada aproveitável.
 - Adaptado: nenhuma mudança no site.
 - Pendentes de leitura: todas as 9 fontes. Precisa de liberação de acesso aos domínios da lista.
+
+## 2026-11-04 (47ª execução) — fonte do Mec: sartocavalieri
+- Lido (WebFetch funcionou): https://sartocavalieri.com/ — hero com slogan e botão "Descobrir"; seções de serviços (atendimento personalizado, consultoria de estilo), produtos e bloco final "Agende uma visita" com WhatsApp/telefone/endereço. Sem nenhum elemento de urgência/escassez.
+- Aprendido: CTA final de agendamento + contato direto é o foco. A Vittalle já tem "Agendar prova" no banner, bloco Evento chegando e no processo; nada a adicionar.
+- Adaptado: nenhuma mudança no site. Escassez real continua pendente do Mec.
+- Pendentes de leitura: as outras 8 fontes (a busca genérica só trouxe diretórios).
