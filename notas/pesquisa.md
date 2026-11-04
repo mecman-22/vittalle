@@ -246,3 +246,8 @@
 - Verificado: canonical, JSON-LD e alt de imagens presentes nas páginas; nada a corrigir.
 - Adaptado: nenhuma mudança no site.
 - Pendentes de leitura: todas as 9 fontes. Precisa de liberação de acesso aos domínios da lista.
+
+## 2026-11-04 (43ª execução) — fontes do Mec: ricardoalmeida
+- Tentativa: WebFetch de https://www.ricardoalmeida.com.br/ bloqueado de novo (PROVENANCE_REQUIRED). Busca genérica (conversão/WhatsApp alfaiataria) só retornou diretórios e PDFs sem valor.
+- Adaptado: nenhuma mudança no site.
+- Pendentes de leitura: todas as 9 fontes. Precisa de liberação de acesso aos domínios da lista.
