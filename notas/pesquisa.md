@@ -220,3 +220,8 @@
 - Tentativa: WebFetch de https://www.flowerhomme.com.br/ e https://cristinacarneiro.com.br/ bloqueado de novo (PROVENANCE_REQUIRED: permissão não respondida em execução automática). Nada lido.
 - Adaptado: nenhuma mudança no site (nada novo e seguro sem inventar fatos).
 - Pendentes de leitura: todas as 9 fontes. Precisa de liberação de acesso aos domínios da lista.
+
+## 2026-11-04 (38ª execução) — fontes do Mec: camisariaturquesa e difranchesco
+- Tentativa: WebFetch de https://www.camisariaturquesa.com.br/alfaiataria/ e https://difranchesco.com/ bloqueado de novo (PROVENANCE_REQUIRED: permissão não respondida em execução automática). Nada lido.
+- Adaptado: nenhuma mudança no site (nada novo e seguro sem inventar fatos).
+- Pendentes de leitura: todas as 9 fontes. Precisa de liberação de acesso aos domínios da lista.
