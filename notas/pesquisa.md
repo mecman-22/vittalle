@@ -261,3 +261,8 @@
 - Tentativa: WebFetch de https://www.ricardoalmeida.com.br/ bloqueado de novo (PROVENANCE_REQUIRED). Busca local (alfaiataria Nova Iguaçu) só retornou diretórios; nada aproveitável.
 - Adaptado: nenhuma mudança no site.
 - Pendentes de leitura: todas as 9 fontes. Precisa de liberação de acesso aos domínios da lista.
+
+## 2026-11-04 (46ª execução) — fontes do Mec: merinoalfaiataria
+- Tentativa: WebFetch de https://merinoalfaiataria.com.br/ bloqueado (PROVENANCE_REQUIRED). WebSearch genérica retornou diretórios; a única página útil (blog socialhub) falhou ao buscar. Nada aproveitável.
+- Adaptado: nenhuma mudança no site.
+- Pendentes de leitura: todas as 9 fontes. Precisa de liberação de acesso aos domínios da lista.
