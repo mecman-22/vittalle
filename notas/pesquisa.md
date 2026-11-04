@@ -240,3 +240,9 @@
 - Tentativa: WebFetch de https://cristinacarneiro.com.br/ e https://www.camisariaturquesa.com.br/alfaiataria/ bloqueado de novo (PROVENANCE_REQUIRED: permissão não respondida em execução automática). Nada lido.
 - Adaptado: nenhuma mudança no site (nada novo e seguro sem inventar fatos).
 - Pendentes de leitura: todas as 9 fontes. Precisa de liberação de acesso aos domínios da lista.
+
+## 2026-11-04 (42ª execução) — fontes do Mec: eluiz-simas
+- Tentativa: WebFetch de https://eluiz-simas-alfaiataria.ueniweb.com/ bloqueado de novo (PROVENANCE_REQUIRED). Nada lido.
+- Verificado: canonical, JSON-LD e alt de imagens presentes nas páginas; nada a corrigir.
+- Adaptado: nenhuma mudança no site.
+- Pendentes de leitura: todas as 9 fontes. Precisa de liberação de acesso aos domínios da lista.
