@@ -235,3 +235,8 @@
 - Tentativa: WebFetch de https://www.zegna.com/pt-pt/ e https://www.flowerhomme.com.br/ bloqueado de novo (PROVENANCE_REQUIRED: permissão não respondida em execução automática). Nada lido.
 - Adaptado: nenhuma mudança no site (nada novo e seguro sem inventar fatos).
 - Pendentes de leitura: todas as 9 fontes. Precisa de liberação de acesso aos domínios da lista.
+
+## 2026-11-04 (41ª execução) — fontes do Mec: cristinacarneiro e camisariaturquesa
+- Tentativa: WebFetch de https://cristinacarneiro.com.br/ e https://www.camisariaturquesa.com.br/alfaiataria/ bloqueado de novo (PROVENANCE_REQUIRED: permissão não respondida em execução automática). Nada lido.
+- Adaptado: nenhuma mudança no site (nada novo e seguro sem inventar fatos).
+- Pendentes de leitura: todas as 9 fontes. Precisa de liberação de acesso aos domínios da lista.
