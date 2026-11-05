@@ -95,6 +95,12 @@
   a:focus-visible, [role="button"]:focus-visible, button:focus-visible{
     outline:2px solid var(--brass); outline-offset:3px;
   }
+  /* Foco visivel em fundos escuros: prata em vez de grafite (contraste maior) */
+  .location a:focus-visible, .store-card a:focus-visible, .explore-card:focus-visible,
+  .explore-card a:focus-visible, .announce a:focus-visible, .tape-rail a:focus-visible,
+  .svc-photo a:focus-visible{
+    outline-color:var(--silver);
+  }
   button.lb-close{ background:none; font:inherit; }
 
   /* --- Botão flutuante WhatsApp --- */

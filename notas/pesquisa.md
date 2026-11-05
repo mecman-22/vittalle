@@ -332,3 +332,11 @@
 - Adaptado: botão "Abrir no Waze" ao lado de "Como chegar" no bloco de local (index.html e loja.html), mesmas coordenadas do Google Maps.
 - Descartado: selos/números e depoimentos (não confirmados), formulário (sem backend).
 - Pendentes de leitura: camisariaturquesa, difranchesco, eluiz-simas. Escassez real segue dependendo do Mec.
+
+## 2026-11-05 (59ª execução) — fontes do Mec: camisariaturquesa e difranchesco + boas práticas (design e conversão)
+- Tentativa: WebFetch de https://www.camisariaturquesa.com.br/alfaiataria/ e https://difranchesco.com/ falhou (host fora da rede permitida da sessão). Nada lido.
+- Pesquisado (WebSearch): boas práticas de botão de WhatsApp em sites (https://chatsac.com/blog/botao-whatsapp-site/, https://www.digisac.com.br/blog/botao-whatsapp). Aprendido: mensagem pré-preenchida com contexto (já temos), botão sempre visível (já temos), rótulo acessível e foco de teclado visível.
+- Verificado: .wa-float já tem aria-label e o site tem foco visível; porém o contorno de foco grafite (#6B6E75) sobre fundo escuro (#151516) fica com contraste baixo (~3,6:1).
+- Adaptado: em blocos escuros (local, cartão da loja, cartões de atalho, barra de aviso, régua lateral) o contorno de foco passa a prata (--silver), contraste bem maior. style.css v=9 em todas as páginas.
+- Descartado: rastreamento de cliques (exigiria script externo e mudança de CSP), checkbox de consentimento (sem coleta de dados).
+- Pendentes de leitura: camisariaturquesa, difranchesco, eluiz-simas. Escassez real segue dependendo do Mec.
