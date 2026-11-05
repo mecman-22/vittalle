@@ -1,0 +1,20 @@
+# Histórico de versões do site (controle do Mec)
+
+Cada atualização publicada no site ganha uma versão nova, mostrada no rodapé de todas as páginas.
+Formato: `0.0.NNNN`. A cada atualização, o último número sobe 1 (0.0.1000 → 0.0.1001 → 0.0.1002…).
+
+Como registrar: a entrada mais nova fica no topo, com versão, data (horário de Brasília), quem fez, o que mudou e o commit.
+
+---
+
+## 0.0.1000 — 05/11/2026
+Primeira versão numerada. Junta tudo o que foi publicado até aqui:
+
+- **Versão no rodapé:** as 7 páginas mostram a versão do site. Removida a frase ao lado de "Tudo sobre a Vittalle" na página inicial. (sessão manual · `96c5829`, `96eecf5`)
+- **Menu:** em telas médias (981 a 1280px), o menu não encosta mais no botão "Agendar prova". No celular, os 6 itens aparecem em 2 linhas de 3. (sessão manual · `9651e56`)
+- **Vitrine:** nova seção "Peças que já saíram daqui" na página inicial, com 4 fotos do portfólio. (sessão manual · `9651e56`)
+- **WhatsApp:** o botão do bloco "Evento chegando" passa a avisar que o contato veio do site. (`4543dd5`)
+- **Perguntas frequentes:** nova pergunta sobre como cuidar do terno, em processo.html. (rotina Vittalle+ · `99fa2f6`)
+- **Acessibilidade:** contorno de foco prata nos blocos escuros. (rotina Vittalle+ · `bff7e05`)
+- **Waze:** botão "Abrir no Waze" no bloco de localização. (Mec · `c0431cb`)
+- **Domínio:** o site passa a usar vittallespeciale.com.br em todos os endereços. (`7f277f5`, `1118194`)
