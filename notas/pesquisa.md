@@ -347,3 +347,9 @@
 - Adaptado: pergunta "Como cuidar do terno para ele durar mais?" no FAQ de processo.html (HTML + FAQPage JSON-LD), com orientações gerais de conservação (cabide largo, descanso entre usos, escovar, vapor, evitar lavagem a seco frequente). Conteúdo útil inspirado nos "cuidados com a roupa".
 - Descartado: preços, desconto, avaliações e áreas atendidas (não confirmados pelo Mec); formas de pagamento já estão no site.
 - Fontes: todas as 9 já lidas ao menos uma vez, exceto difranchesco. Próximas execuções: difranchesco, depois retomar o rodízio. Escassez real segue dependendo do Mec.
+
+## 2026-11-05 (61ª execução) — fonte do Mec: difranchesco (WebFetch funcionou)
+- Lido: difranchesco.com — hero com botão de agendamento, faixa de 4 pilares, história familiar, cards de serviço, bloco de agendamento (visita em 24h/48h, agendamento gratuito), popup com opções (ateliê, domicílio, WhatsApp), WhatsApp com mensagem dizendo que o contato veio do site. Escassez: só exclusividade ("cada terno é único") e rapidez de retorno; sem contagem ou estoque.
+- Adaptado: a mensagem de WhatsApp do bloco "Evento chegando" (index.html) era a única sem a menção "vi o site da Vittalle Speciale"; agora identifica a origem, como as demais, para o atendimento saber de onde veio o contato.
+- Descartado: prazo de retorno em 24h/48h e atendimento em domicílio (não confirmados pelo Mec), popup com agenda (exige serviço externo), faixa de pilares (o resumo da página inicial já cumpre esse papel).
+- Fontes: todas as 9 lidas ao menos uma vez. Próximas execuções: retomar o rodízio pela sartocavalieri. Escassez real segue dependendo do Mec.
