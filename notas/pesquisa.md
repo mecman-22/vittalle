@@ -340,3 +340,10 @@
 - Adaptado: em blocos escuros (local, cartão da loja, cartões de atalho, barra de aviso, régua lateral) o contorno de foco passa a prata (--silver), contraste bem maior. style.css v=9 em todas as páginas.
 - Descartado: rastreamento de cliques (exigiria script externo e mudança de CSP), checkbox de consentimento (sem coleta de dados).
 - Pendentes de leitura: camisariaturquesa, difranchesco, eluiz-simas. Escassez real segue dependendo do Mec.
+
+## 2026-11-05 (60ª execução) — fontes do Mec: eluiz-simas e camisariaturquesa (WebFetch funcionou)
+- Lido: eluiz-simas-alfaiataria.ueniweb.com — menu de âncoras, bloco "Facilidades" (cartões, consulta grátis), serviços com preço "a partir de", avaliações do Google, formulário, áreas atendidas. Escassez: só desconto à vista (sem prazo).
+- Lido: camisariaturquesa.com.br/alfaiataria — seções por peça (ternos, calças, blazers, coletes) com miniaturas de tecido; rodapé com "links úteis" (cuidados com a roupa, tabela de medidas, dress code) e atendimento com hora marcada. Sem escassez.
+- Adaptado: pergunta "Como cuidar do terno para ele durar mais?" no FAQ de processo.html (HTML + FAQPage JSON-LD), com orientações gerais de conservação (cabide largo, descanso entre usos, escovar, vapor, evitar lavagem a seco frequente). Conteúdo útil inspirado nos "cuidados com a roupa".
+- Descartado: preços, desconto, avaliações e áreas atendidas (não confirmados pelo Mec); formas de pagamento já estão no site.
+- Fontes: todas as 9 já lidas ao menos uma vez, exceto difranchesco. Próximas execuções: difranchesco, depois retomar o rodízio. Escassez real segue dependendo do Mec.
