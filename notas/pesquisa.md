@@ -360,3 +360,6 @@
 - Problema 2: no celular o menu rolava para o lado e escondia "Portfolio" e "Loja". Agora os 6 itens aparecem em 2 linhas de 3 (ate 600px).
 - Adicionado: vitrine "Pecas que ja sairam daqui" na pagina inicial, com 4 fotos ja existentes do portfolio (dsc7479, loja-31, dsc6180, cintos), cada uma usada uma unica vez na pagina, com link para portfolio.html.
 - style.css v=9 -> v=10 nas 7 paginas. Sem rolagem horizontal em 375px, ids unicos, sem erros de CSP no console.
+## 2026-11-05 (sessao manual com o Mec) - versao no rodape
+- Removida a frase ao lado do titulo 'Tudo sobre a Vittalle' na pagina inicial, a pedido do Mec.
+- Rodape das 7 paginas agora mostra 'Versao 1.0 (05/11/2026)' (span.site-version). REGRA: a cada mudanca publicada no site, aumente a versao (1.0 -> 1.1 -> 1.2...) e atualize a data, igual nas 7 paginas.
