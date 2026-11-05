@@ -543,3 +543,8 @@
   .date-cta p{ color:var(--ink-soft); max-width:600px; margin:0; }
   .date-cta .btn-primary{ flex:none; }
   @media (max-width:760px){ .date-cta{ flex-direction:column; align-items:flex-start; padding:40px 16px; } }
+
+  /* --- contato no rodape --- */
+  .foot-contact{ display:flex; gap:14px; flex-wrap:wrap; align-items:center; }
+  .foot-contact a{ font-family:'JetBrains Mono',monospace; letter-spacing:0.04em; border-bottom:1px solid var(--brass); padding-bottom:1px; }
+  .foot-contact a:hover{ color:var(--burgundy); }

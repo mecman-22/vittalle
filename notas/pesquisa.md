@@ -363,3 +363,10 @@
 ## 2026-11-05 (sessao manual com o Mec) - versao no rodape
 - Removida a frase ao lado do titulo 'Tudo sobre a Vittalle' na pagina inicial, a pedido do Mec.
 - Rodape das 7 paginas agora mostra 'Versao 1.0 (05/11/2026)' (span.site-version). REGRA (atualizada pelo Mec): formato 0.0.NNNN, com o ultimo numero de 4 digitos. Comeca em 0.0.1000; a cada atualizacao publicada no site some 1 ao ultimo numero (0.0.1001, 0.0.1002...) e atualize a data, igual nas 7 paginas.
+
+## 2026-11-05 (62ª execução) — fonte do Mec: sartocavalieri (rodízio retomado)
+- Lido: https://sartocavalieri.com/ — página única: hero com "Descobrir", proposta de valor, serviços exclusivos, cards de produto, marcas parceiras, bloco "Agende uma visita", rodapé com telefone/WhatsApp/e-mail clicáveis e endereço. Escassez: nenhuma (só linguagem de exclusividade).
+- Aprendido: o contato direto (telefone clicável + endereço) fica no rodapé de todas as páginas, então quem rola até o fim acha como falar com a loja sem voltar ao topo.
+- Adaptado: rodapé das 7 páginas ganhou linha "Shopping Nova Iguaçu · Piso 1 · Loja 3034" + telefone clicável (tel:+5521972672477). style.css v=11. Versão 0.0.1003.
+- Descartado: grade de logos de marcas parceiras (não confirmado quais tecidos/marcas a Vittalle trabalha), e-mail (nenhum e-mail da loja confirmado).
+- Próximas: merinoalfaiataria e flowerhomme no rodízio. Escassez real segue dependendo do Mec.
