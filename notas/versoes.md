@@ -7,6 +7,9 @@ Como registrar: a entrada mais nova fica no topo, com versão, data (horário de
 
 ---
 
+## 0.0.1002 — 05/11/2026
+- **Compartilhamento:** ao mandar o link do site no WhatsApp, Discord, Facebook etc., a prévia agora mostra a foto do cliente de blazer azul e óculos escuros (imagem nova img/og-vittalle.jpg, 1200x630), no lugar da foto de catálogo de tecido. Vale para as 6 páginas. (sessão manual · `d131f43`)
+
 ## 0.0.1001 — 05/11/2026
 - **Vitrine da página inicial:** fotos escolhidas pelo Mec, em nova ordem: Ternos e Blazer, Esporte Fino, Cinto e Acessórios, Chinelo e Sandália. A foto de sapatos saiu e entrou a do chinelo. (sessão manual · `bc4e020`)
 
