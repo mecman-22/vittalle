@@ -7,6 +7,9 @@ Como registrar: a entrada mais nova fica no topo, com versão, data (horário de
 
 ---
 
+## 0.0.1001 — 05/11/2026
+- **Vitrine da página inicial:** fotos escolhidas pelo Mec, em nova ordem: Ternos e Blazer, Esporte Fino, Cinto e Acessórios, Chinelo e Sandália. A foto de sapatos saiu e entrou a do chinelo. (sessão manual · `bc4e020`)
+
 ## 0.0.1000 — 05/11/2026
 Primeira versão numerada. Junta tudo o que foi publicado até aqui:
 
