@@ -362,4 +362,4 @@
 - style.css v=9 -> v=10 nas 7 paginas. Sem rolagem horizontal em 375px, ids unicos, sem erros de CSP no console.
 ## 2026-11-05 (sessao manual com o Mec) - versao no rodape
 - Removida a frase ao lado do titulo 'Tudo sobre a Vittalle' na pagina inicial, a pedido do Mec.
-- Rodape das 7 paginas agora mostra 'Versao 1.0 (05/11/2026)' (span.site-version). REGRA: a cada mudanca publicada no site, aumente a versao (1.0 -> 1.1 -> 1.2...) e atualize a data, igual nas 7 paginas.
+- Rodape das 7 paginas agora mostra 'Versao 1.0 (05/11/2026)' (span.site-version). REGRA (atualizada pelo Mec): formato 0.0.NNNN, com o ultimo numero de 4 digitos. Comeca em 0.0.1000; a cada atualizacao publicada no site some 1 ao ultimo numero (0.0.1001, 0.0.1002...) e atualize a data, igual nas 7 paginas.
