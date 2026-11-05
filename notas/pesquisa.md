@@ -353,3 +353,10 @@
 - Adaptado: a mensagem de WhatsApp do bloco "Evento chegando" (index.html) era a única sem a menção "vi o site da Vittalle Speciale"; agora identifica a origem, como as demais, para o atendimento saber de onde veio o contato.
 - Descartado: prazo de retorno em 24h/48h e atendimento em domicílio (não confirmados pelo Mec), popup com agenda (exige serviço externo), faixa de pilares (o resumo da página inicial já cumpre esse papel).
 - Fontes: todas as 9 lidas ao menos uma vez. Próximas execuções: retomar o rodízio pela sartocavalieri. Escassez real segue dependendo do Mec.
+
+## 2026-11-05 (sessao manual com o Mec) — revisao visual do site publicado
+- Revisado: vittallespeciale.com.br em 375px, 990px, 1080px e 1440px.
+- Problema 1: entre ~981px e ~1280px o item "Loja" do menu encostava no botao "Agendar prova", que quebrava em 2 linhas. Corrigido no style.css (gap menor nessa faixa e botao sem quebra).
+- Problema 2: no celular o menu rolava para o lado e escondia "Portfolio" e "Loja". Agora os 6 itens aparecem em 2 linhas de 3 (ate 600px).
+- Adicionado: vitrine "Pecas que ja sairam daqui" na pagina inicial, com 4 fotos ja existentes do portfolio (dsc7479, loja-31, dsc6180, cintos), cada uma usada uma unica vez na pagina, com link para portfolio.html.
+- style.css v=9 -> v=10 nas 7 paginas. Sem rolagem horizontal em 375px, ids unicos, sem erros de CSP no console.

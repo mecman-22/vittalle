@@ -75,6 +75,13 @@
     border-radius:2px; transition:background .2s ease;
   }
   .cta-btn:hover{ background:var(--burgundy); }
+  .cta-btn{ white-space:nowrap; flex-shrink:0; }
+  /* Telas medias (notebook pequeno/tablet deitado): menu nao encosta no botao */
+  @media (min-width:981px) and (max-width:1280px){
+    header.top{ gap:24px; padding:22px 5vw; }
+    nav.links{ gap:clamp(16px, 2vw, 34px); }
+    nav.links a{ font-size:12px; letter-spacing:0.05em; }
+  }
   @media (max-width:980px){
     header.top{ flex-wrap:wrap; gap:12px 16px; padding:16px 6vw; }
     nav.links{
@@ -84,6 +91,14 @@
     nav.links::-webkit-scrollbar{ display:none; }
     nav.links a{ font-size:12px; }
     .cta-btn{ padding:9px 16px; font-size:12px; }
+  }
+  /* Celular: os 6 itens do menu sempre visiveis (3 por linha), sem rolagem escondida */
+  @media (max-width:600px){
+    nav.links{
+      display:grid; grid-template-columns:repeat(3, auto); justify-content:space-between;
+      gap:10px 12px; overflow:visible; padding-bottom:0;
+    }
+    nav.links a{ font-size:11.5px; padding:4px 0; }
   }
 
   /* --- Acessibilidade --- */
@@ -495,6 +510,23 @@
   .hero-copy{ max-width:760px; }
   @media (max-width:700px){ .hero{ padding-top:48px; } }
   .hero + .explore{ padding-top:20px; }
+
+  /* --- vitrine de pecas na pagina inicial --- */
+  .showcase{ padding-top:88px; }
+  .hero + .showcase{ padding-top:64px; }
+  .showcase-grid{ display:grid; grid-template-columns:repeat(4,1fr); gap:14px; }
+  .showcase-item{ position:relative; display:block; overflow:hidden; background:var(--ink); aspect-ratio:3/4; }
+  .showcase-item img{ width:100%; height:100%; object-fit:cover; transition:transform .5s ease, opacity .3s ease; }
+  .showcase-item:hover img{ transform:scale(1.04); opacity:.9; }
+  .showcase-item .cap{
+    position:absolute; left:0; right:0; bottom:0; padding:28px 16px 14px;
+    background:linear-gradient(to top, rgba(21,21,22,.88), rgba(21,21,22,0));
+    color:var(--ivory); font-family:'JetBrains Mono',monospace; font-size:11.5px;
+    letter-spacing:.08em; text-transform:uppercase;
+  }
+  .showcase-item:focus-visible{ outline:2px solid var(--brass); outline-offset:3px; }
+  @media (max-width:820px){ .showcase-grid{ grid-template-columns:repeat(2,1fr); gap:10px; } .showcase{ padding-top:64px; } }
+  .showcase + .explore{ padding-top:72px; }
 
   /* --- impressao (endereco e horarios legiveis em papel) --- */
   @media print{
