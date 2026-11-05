@@ -325,3 +325,10 @@
 - Verificado: servicos.html já cobre sob medida, ajustes e reparos; ideia "Ao seu serviço" da 56ª já está atendida, nada a acrescentar.
 - Adaptado: nenhuma mudança no site.
 - Pendentes de leitura: flowerhomme, cristinacarneiro, camisariaturquesa, difranchesco, eluiz-simas.
+
+## 2026-11-05 (58ª execução) — fontes do Mec: flowerhomme e cristinacarneiro (WebFetch funcionou)
+- Lido: flowerhomme.com.br — seções numeradas, perfis "Para quem" (noivos, padrinhos, formandos, pais, pajens), "Experiência" da jornada, lojas com links para Google Maps e Waze, WhatsApp pré-preenchido, formulário. Sem escassez explícita (só atendimento com hora marcada).
+- Lido: cristinacarneiro.com.br — hero com WhatsApp + "Ver modelos", cards de serviço, passo a passo em 5 etapas, lista de bairros atendidos, blog/FAQ, horário e "Como chegar". Selos de avaliações/anos (não replicados: sem dados confirmados). Sem escassez explícita.
+- Adaptado: botão "Abrir no Waze" ao lado de "Como chegar" no bloco de local (index.html e loja.html), mesmas coordenadas do Google Maps.
+- Descartado: selos/números e depoimentos (não confirmados), formulário (sem backend).
+- Pendentes de leitura: camisariaturquesa, difranchesco, eluiz-simas. Escassez real segue dependendo do Mec.
