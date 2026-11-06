@@ -370,3 +370,10 @@
 - Adaptado: rodapé das 7 páginas ganhou linha "Shopping Nova Iguaçu · Piso 1 · Loja 3034" + telefone clicável (tel:+5521972672477). style.css v=11. Versão 0.0.1003.
 - Descartado: grade de logos de marcas parceiras (não confirmado quais tecidos/marcas a Vittalle trabalha), e-mail (nenhum e-mail da loja confirmado).
 - Próximas: merinoalfaiataria e flowerhomme no rodízio. Escassez real segue dependendo do Mec.
+
+## 2026-11-06 (63ª execução) — fonte do Mec: merinoalfaiataria (rodízio)
+- Lido: https://merinoalfaiataria.com.br/ — banners de coleção, lançamentos, agendamento com consultores, outlet com preço riscado, "escolha o tecido e desenhe sua peça", WhatsApp flutuante pré-preenchido; rodapé com redes, newsletter, formas de pagamento e dados da empresa. Escassez: "Flash Sale" e outlet (descontos), sem contador nem estoque.
+- Aprendido: as formas de pagamento aparecem no rodapé de todas as páginas, respondendo uma dúvida comum sem o cliente procurar.
+- Adaptado: rodapé das 7 páginas ganhou "Pagamento: crédito · débito · dinheiro · Pix" (fato confirmado pelo Mec). style.css v=12. Versão 0.0.1004.
+- Descartado: outlet/flash sale/preços (não confirmados; seria escassez inventada), newsletter (sem backend), selos de segurança.
+- Próximas: flowerhomme e cristinacarneiro no rodízio. Escassez real segue dependendo do Mec.
