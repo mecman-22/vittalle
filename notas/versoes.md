@@ -7,6 +7,9 @@ Como registrar: a entrada mais nova fica no topo, com versão, data (horário de
 
 ---
 
+## 0.0.1004 — 06/11/2026
+- **Rodapé:** todas as páginas agora mostram as formas de pagamento aceitas na loja: crédito, débito, dinheiro e Pix. (rotina Vittalle+ · `4242c18`)
+
 ## 0.0.1003 — 05/11/2026
 - **Rodapé:** todas as páginas agora mostram no rodapé o endereço (Shopping Nova Iguaçu · Piso 1 · Loja 3034) e o telefone (21) 97267-2477, que no celular liga com um toque. (rotina Vittalle+ · `6fd1fbf`)
 
