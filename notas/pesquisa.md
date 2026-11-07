@@ -377,3 +377,10 @@
 - Adaptado: rodapé das 7 páginas ganhou "Pagamento: crédito · débito · dinheiro · Pix" (fato confirmado pelo Mec). style.css v=12. Versão 0.0.1004.
 - Descartado: outlet/flash sale/preços (não confirmados; seria escassez inventada), newsletter (sem backend), selos de segurança.
 - Próximas: flowerhomme e cristinacarneiro no rodízio. Escassez real segue dependendo do Mec.
+
+## 2026-11-07 (64ª execução) — fontes do Mec: flowerhomme e cristinacarneiro (rodízio)
+- Lido: https://www.flowerhomme.com.br/ — seções numeradas, "Para quem" por perfil (noivos, formandos, padrinhos, convidados, pai dos noivos, 15 anos, pajens, corporativo), WhatsApp pré-preenchido, atendimento com hora marcada. Sem escassez.
+- Lido: https://cristinacarneiro.com.br/ — cards por público, passo a passo em 5 etapas, WhatsApp com mensagem diferente por contexto, faixa de números/avaliações, newsletter. Escassez: nenhuma explícita (só "hora marcada", parcelamento, desconto de grupo).
+- Adaptado: em servicos.html, "Comece pelo momento" ganhou 2 cartões com WhatsApp por contexto: "Padrinhos e pais dos noivos" e "Ajuste da sua peça" (serviço confirmado). Grade em 3 colunas. Urgência honesta no texto: evento com data, chame cedo (sob medida pede tempo para as provas). style.css v=13. Versão 0.0.1005.
+- Descartado: números/avaliações/anos de loja, parcelamento e desconto de grupo (não confirmados), newsletter (sem backend), pajens/15 anos (não confirmado se a loja faz infantil).
+- Próximas: camisariaturquesa e difranchesco no rodízio. Escassez real segue dependendo do Mec.

@@ -7,6 +7,10 @@ Como registrar: a entrada mais nova fica no topo, com versão, data (horário de
 
 ---
 
+## 0.0.1005 — 07/11/2026
+- **Serviços (por ocasião):** dois cartões novos com WhatsApp já escrito: "Padrinhos e pais dos noivos" e "Ajuste da sua peça". A grade passou a ter 3 colunas (6 cartões).
+- **Serviços:** o texto da seção agora lembra de chamar cedo quando o evento tem data, porque o sob medida pede tempo para as provas. (rotina Vittalle+ · `1910174`)
+
 ## 0.0.1004 — 06/11/2026
 - **Rodapé:** todas as páginas agora mostram as formas de pagamento aceitas na loja: crédito, débito, dinheiro e Pix. (rotina Vittalle+ · `4242c18`)
 
