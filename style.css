@@ -283,10 +283,10 @@
     border:1px solid var(--line); border-radius:2px; overflow:hidden; background:var(--paper);
   }
   .malha-item img{
-    width:100%; aspect-ratio:3/4; object-fit:cover; object-position:top center;
-    transition:transform .4s ease;
+    width:100%; height:auto; aspect-ratio:3/5; object-fit:cover; object-position:top center;
+    transform:scale(1.03); transform-origin:50% 0; transition:transform .4s ease;
   }
-  .malha-item:hover img{ transform:scale(1.04); }
+  .malha-item:hover img{ transform:scale(1.07); }
   .malha-item .malha-info{ padding:12px 14px 16px; }
   .malha-item .malha-ref{
     font-family:'JetBrains Mono',monospace; font-size:10px; color:var(--brass);
