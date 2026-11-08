@@ -7,6 +7,9 @@ Como registrar: a entrada mais nova fica no topo, com versão, data (horário de
 
 ---
 
+## 0.0.1007 — 07/11/2026
+- **Tecidos:** as fotos do catálogo estavam esticadas e ampliadas demais (e por isso borradas). Agora cada cartão mostra a peça inteira, do rosto aos joelhos, com a foto nítida. (pedido do Mec · `5076726`)
+
 ## 0.0.1006 — 07/11/2026
 - **Visual:** o site voltou às cores antigas (dourado, azul-marinho e bordo) e a página inicial voltou a abrir com a foto ao lado do título, no lugar do banner cinza.
 - **Rodapé:** removida a linha com as formas de pagamento (elas continuam no bloco de horários e nas perguntas frequentes). (pedido do Mec · `2a156f6`)
