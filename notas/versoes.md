@@ -7,6 +7,9 @@ Como registrar: a entrada mais nova fica no topo, com versão, data (horário de
 
 ---
 
+## 0.0.1010 — 07/11/2026
+- **Menu e rodapé (todas as páginas):** a aba "Tecidos" agora se chama "Catálogo". O título da página passou a ser "Catálogo de tecidos e cores". O endereço da página não mudou. (pedido do Mec · `efc5ab7`)
+
 ## 0.0.1009 — 07/11/2026
 - **Foto ampliada (Tecidos e Portfólio):** no celular, o botão "Fechar" e a legenda ficavam por cima da foto. Agora a foto tem espaço próprio no topo e embaixo, e nada se sobrepõe. (pedido do Mec · `74ad1f2`)
 
