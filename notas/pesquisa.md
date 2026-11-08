@@ -384,3 +384,10 @@
 - Adaptado: em servicos.html, "Comece pelo momento" ganhou 2 cartões com WhatsApp por contexto: "Padrinhos e pais dos noivos" e "Ajuste da sua peça" (serviço confirmado). Grade em 3 colunas. Urgência honesta no texto: evento com data, chame cedo (sob medida pede tempo para as provas). style.css v=13. Versão 0.0.1005.
 - Descartado: números/avaliações/anos de loja, parcelamento e desconto de grupo (não confirmados), newsletter (sem backend), pajens/15 anos (não confirmado se a loja faz infantil).
 - Próximas: camisariaturquesa e difranchesco no rodízio. Escassez real segue dependendo do Mec.
+
+## 2026-11-08 (65ª execução) — fontes do Mec: camisariaturquesa e difranchesco (rodízio)
+- Lido: https://www.camisariaturquesa.com.br/alfaiataria/ — seções por peça (ternos, calças, blazers, coletes) com galeria de tecidos numerada; rodapé com "links úteis" (cuidados, tabela de medidas, nó de gravata, dress code, FAQ), atendimento com hora marcada, newsletter. Escassez: nenhuma explícita (só linguagem de exclusividade).
+- Lido: https://difranchesco.com/ — hero com CTA único, faixa de 4 destaques, história, cards de serviço, bloco de agendamento com prazo de retorno, pop-up de canais, WhatsApp pré-preenchido. Escassez: nenhuma real (só prazo de resposta e "cada terno é único").
+- Adaptado: guia de dress code (dos "links úteis") virou pergunta no FAQ de processo.html (HTML + FAQPage JSON-LD): "O convite pede traje passeio completo ou esporte fino. O que vestir?", com explicação geral dos trajes e convite para mandar a foto do convite e a data no WhatsApp. Versão 0.0.1012.
+- Descartado: prazo de retorno 24h/48h, atendimento VIP/domicílio, newsletter, depoimentos (não confirmados ou sem backend); tabela de medidas (sem dados confirmados).
+- Próximas: ricardoalmeida e zegna no rodízio. Escassez real segue dependendo do Mec.
