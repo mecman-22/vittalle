@@ -7,6 +7,9 @@ Como registrar: a entrada mais nova fica no topo, com versão, data (horário de
 
 ---
 
+## 0.0.1009 — 07/11/2026
+- **Foto ampliada (Tecidos e Portfólio):** no celular, o botão "Fechar" e a legenda ficavam por cima da foto. Agora a foto tem espaço próprio no topo e embaixo, e nada se sobrepõe. (pedido do Mec · `74ad1f2`)
+
 ## 0.0.1008 — 07/11/2026
 - **Tecidos:** as 28 fotos do catálogo foram reprocessadas com melhoria de resolução (de 681 para 1100 px de largura), com menos serrilhado e sem as bordas e o texto que vinham do PDF do fornecedor. A foto ampliada ao clicar também ficou mais nítida. (pedido do Mec · `b79fc82`)
 
