@@ -7,6 +7,10 @@ Como registrar: a entrada mais nova fica no topo, com versão, data (horário de
 
 ---
 
+## 0.0.1006 — 07/11/2026
+- **Visual:** o site voltou às cores antigas (dourado, azul-marinho e bordo) e a página inicial voltou a abrir com a foto ao lado do título, no lugar do banner cinza.
+- **Rodapé:** removida a linha com as formas de pagamento (elas continuam no bloco de horários e nas perguntas frequentes). (pedido do Mec · `2a156f6`)
+
 ## 0.0.1005 — 07/11/2026
 - **Serviços (por ocasião):** dois cartões novos com WhatsApp já escrito: "Padrinhos e pais dos noivos" e "Ajuste da sua peça". A grade passou a ter 3 colunas (6 cartões).
 - **Serviços:** o texto da seção agora lembra de chamar cedo quando o evento tem data, porque o sob medida pede tempo para as provas. (rotina Vittalle+ · `1910174`)
