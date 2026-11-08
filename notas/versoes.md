@@ -7,6 +7,9 @@ Como registrar: a entrada mais nova fica no topo, com versão, data (horário de
 
 ---
 
+## 0.0.1011 — 07/11/2026
+- **Visual:** o site voltou ao layout preto (grafite e prata) e a página inicial voltou a abrir com o banner. As melhorias feitas depois continuam: aba "Catálogo", fotos de tecido em alta resolução, foto ampliada sem sobreposição no celular e rodapé sem a linha de pagamento. (pedido do Mec · `f2e5b5f`)
+
 ## 0.0.1010 — 07/11/2026
 - **Menu e rodapé (todas as páginas):** a aba "Tecidos" agora se chama "Catálogo". O título da página passou a ser "Catálogo de tecidos e cores". O endereço da página não mudou. (pedido do Mec · `efc5ab7`)
 
