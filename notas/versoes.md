@@ -7,6 +7,9 @@ Como registrar: a entrada mais nova fica no topo, com versão, data (horário de
 
 ---
 
+## 0.0.1008 — 07/11/2026
+- **Tecidos:** as 28 fotos do catálogo foram reprocessadas com melhoria de resolução (de 681 para 1100 px de largura), com menos serrilhado e sem as bordas e o texto que vinham do PDF do fornecedor. A foto ampliada ao clicar também ficou mais nítida. (pedido do Mec · `b79fc82`)
+
 ## 0.0.1007 — 07/11/2026
 - **Tecidos:** as fotos do catálogo estavam esticadas e ampliadas demais (e por isso borradas). Agora cada cartão mostra a peça inteira, do rosto aos joelhos, com a foto nítida. (pedido do Mec · `5076726`)
 
