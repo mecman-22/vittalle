@@ -468,6 +468,9 @@
   .location .details .tel-link{ border-bottom:1px solid var(--silver); color:var(--ivory); }
   .location .details .tel-link:hover{ color:var(--silver); }
   .hours{ border-top:1px solid rgba(236,236,238,0.18); margin-top:34px; padding-top:24px; }
+  .quick-links{ display:flex; flex-direction:column; border-top:1px solid rgba(236,236,238,0.18); padding-top:24px; align-self:center; }
+  .quick-links a{ display:flex; justify-content:space-between; gap:16px; padding:12px 0; border-bottom:1px solid rgba(236,236,238,0.12); color:var(--ivory); font-size:15px; }
+  .quick-links a:hover{ color:var(--silver); }
   .hours-row{ display:flex; justify-content:space-between; font-size:13.5px; padding:6px 0; color:rgba(236,236,238,0.75); }
 
   footer{

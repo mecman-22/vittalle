@@ -391,3 +391,10 @@
 - Adaptado: guia de dress code (dos "links úteis") virou pergunta no FAQ de processo.html (HTML + FAQPage JSON-LD): "O convite pede traje passeio completo ou esporte fino. O que vestir?", com explicação geral dos trajes e convite para mandar a foto do convite e a data no WhatsApp. Versão 0.0.1012.
 - Descartado: prazo de retorno 24h/48h, atendimento VIP/domicílio, newsletter, depoimentos (não confirmados ou sem backend); tabela de medidas (sem dados confirmados).
 - Próximas: ricardoalmeida e zegna no rodízio. Escassez real segue dependendo do Mec.
+
+## 2026-11-09 (66ª execução) — fontes do Mec: ricardoalmeida e zegna (rodízio)
+- Lido: https://www.ricardoalmeida.com.br/ — banners empilhados por linha (alfaiataria, sob medida, casamento) com CTA "Conheça", mega-menu, busca com "Mais buscados" (atalhos prontos), lojas, newsletter. Escassez: leve (aviso de volta ao estoque, "preços e estoque podem mudar"); sem contador.
+- Tentativa: https://www.zegna.com/pt-pt/ — WebFetch falhou (host fora da rede permitida da sessão). Nada lido.
+- Adaptado: ideia dos atalhos prontos na busca virou bloco "Atalhos" na página 404.html (catálogo, portfólio, casamento e eventos, perguntas frequentes, como chegar), para quem cai num endereço errado achar o caminho sem voltar ao início. Rotulado só como "Atalhos" (não "mais buscados", pois não temos dado de popularidade). style.css v=18. Versão 0.0.1013.
+- Descartado: "mais buscados" com popularidade, frete grátis/desconto Pix, aviso de estoque (não confirmados; seria escassez inventada), newsletter (sem backend).
+- Próximas: merinoalfaiataria e flowerhomme no rodízio; zegna depende de liberar o host na rede. Escassez real segue dependendo do Mec.
