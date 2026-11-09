@@ -7,6 +7,9 @@ Como registrar: a entrada mais nova fica no topo, com versão, data (horário de
 
 ---
 
+## 0.0.1013 — 09/11/2026
+- **Página de erro (404):** quem abre um endereço que não existe agora vê uma lista de atalhos para o catálogo de tecidos, o portfólio, roupa para casamento e eventos, as perguntas frequentes e o endereço da loja. (rotina Vittalle+ · `23a3651`)
+
 ## 0.0.1012 — 08/11/2026
 - **Processo (perguntas frequentes):** nova pergunta "O convite pede traje passeio completo ou esporte fino. O que vestir?", explicando a diferença entre os trajes (e o black tie) e convidando a mandar a foto do convite no WhatsApp. (rotina Vittalle+ · `e59e5ab`)
 
