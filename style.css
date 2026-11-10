@@ -556,3 +556,8 @@
   .foot-contact a{ font-family:'JetBrains Mono',monospace; letter-spacing:0.04em; border-bottom:1px solid var(--brass); padding-bottom:1px; }
   .foot-contact a:hover{ color:var(--burgundy); }
   .foot-pay{ font-size:0.95em; }
+
+  /* --- atalho de WhatsApp por linha no catalogo --- */
+  .malha-cta{ display:inline-block; margin-top:22px; font-size:14px; line-height:1.5; color:var(--ink); border-bottom:1px solid var(--brass); padding-bottom:2px; }
+  .malha-cta:hover{ color:var(--burgundy); border-bottom-color:var(--ink); }
+  .malha-cta:focus-visible{ outline:2px solid var(--brass); outline-offset:3px; }

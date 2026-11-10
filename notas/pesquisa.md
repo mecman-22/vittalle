@@ -398,3 +398,11 @@
 - Adaptado: ideia dos atalhos prontos na busca virou bloco "Atalhos" na página 404.html (catálogo, portfólio, casamento e eventos, perguntas frequentes, como chegar), para quem cai num endereço errado achar o caminho sem voltar ao início. Rotulado só como "Atalhos" (não "mais buscados", pois não temos dado de popularidade). style.css v=18. Versão 0.0.1013.
 - Descartado: "mais buscados" com popularidade, frete grátis/desconto Pix, aviso de estoque (não confirmados; seria escassez inventada), newsletter (sem backend).
 - Próximas: merinoalfaiataria e flowerhomme no rodízio; zegna depende de liberar o host na rede. Escassez real segue dependendo do Mec.
+
+## 2026-11-10 (67ª execução) — fontes do Mec: flowerhomme e merinoalfaiataria (rodízio)
+- Lido: https://www.flowerhomme.com.br/ — menu por público ("Para quem": noivos, formandos, padrinhos, convidados, pais dos noivos, debutantes, pajens, corporativo), galeria de looks com "Ver mais", WhatsApp pré-preenchido, atendimento com hora marcada. Escassez: nenhuma.
+- Lido: https://merinoalfaiataria.com.br/ — banner de coleção, lançamentos com preço, blocos por categoria, outlet com preço riscado, chamada "escolha o tecido e desenhe sua peça", WhatsApp flutuante. Escassez: só promoção ("special week"/outlet), sem prazo nem estoque.
+- Aprendido: a escolha do tecido é o ponto de partida da conversa; o cliente precisa de um caminho direto do tecido que gostou para o atendimento.
+- Adaptado: em tecidos.html, cada uma das 5 linhas (Fio Tinto, Elastano Liso, Oxford, Tropical, Lã) ganhou um link "Gostou de uma cor da linha X? Mande a referência no WhatsApp", com mensagem já escrita citando a linha e pedindo para mandar referência e cor (origem: site). style.css v=19. Versão 0.0.1014.
+- Descartado: preços/outlet/special week (não confirmados; seria escassez inventada), "Para quem" (já existe em servicos.html), pajens/debutantes (não confirmado), login/carrinho/newsletter (sem backend).
+- Próximas: cristinacarneiro e sartocavalieri no rodízio; zegna depende de liberar o host na rede. Escassez real segue dependendo do Mec.
