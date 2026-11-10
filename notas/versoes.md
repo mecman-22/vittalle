@@ -7,6 +7,9 @@ Como registrar: a entrada mais nova fica no topo, com versão, data (horário de
 
 ---
 
+## 0.0.1014 — 10/11/2026
+- **Catálogo de tecidos:** cada linha (Fio Tinto, Elastano Liso, Oxford, Tropical e Lã) agora termina com um link para o WhatsApp com a mensagem já escrita, dizendo a linha escolhida e pedindo para mandar a referência e a cor. (rotina Vittalle+ · `91e9712`)
+
 ## 0.0.1013 — 09/11/2026
 - **Página de erro (404):** quem abre um endereço que não existe agora vê uma lista de atalhos para o catálogo de tecidos, o portfólio, roupa para casamento e eventos, as perguntas frequentes e o endereço da loja. (rotina Vittalle+ · `23a3651`)
 
