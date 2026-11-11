@@ -7,6 +7,9 @@ Como registrar: a entrada mais nova fica no topo, com versão, data (horário de
 
 ---
 
+## 0.0.1015 — 11/11/2026
+- **Rodapé (Início, Serviços, Processo, Catálogo, Portfólio e Loja):** novo link "Voltar ao topo ↑" no fim de cada página, para voltar ao menu sem precisar rolar tudo de novo no celular. (rotina Vittalle+ · `cf654bf`)
+
 ## 0.0.1014 — 10/11/2026
 - **Catálogo de tecidos:** cada linha (Fio Tinto, Elastano Liso, Oxford, Tropical e Lã) agora termina com um link para o WhatsApp com a mensagem já escrita, dizendo a linha escolhida e pedindo para mandar a referência e a cor. (rotina Vittalle+ · `91e9712`)
 
