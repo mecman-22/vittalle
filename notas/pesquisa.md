@@ -406,3 +406,11 @@
 - Adaptado: em tecidos.html, cada uma das 5 linhas (Fio Tinto, Elastano Liso, Oxford, Tropical, Lã) ganhou um link "Gostou de uma cor da linha X? Mande a referência no WhatsApp", com mensagem já escrita citando a linha e pedindo para mandar referência e cor (origem: site). style.css v=19. Versão 0.0.1014.
 - Descartado: preços/outlet/special week (não confirmados; seria escassez inventada), "Para quem" (já existe em servicos.html), pajens/debutantes (não confirmado), login/carrinho/newsletter (sem backend).
 - Próximas: cristinacarneiro e sartocavalieri no rodízio; zegna depende de liberar o host na rede. Escassez real segue dependendo do Mec.
+
+## 2026-11-11 (68ª execução) — fontes do Mec: cristinacarneiro e sartocavalieri (rodízio)
+- Lido: https://cristinacarneiro.com.br/ — hero com WhatsApp pré-preenchido por contexto, cards por público, galeria do acervo, passo a passo em 5 etapas, regiões atendidas, CTA final com endereço/horário/mapa, newsletter. Escassez: nenhuma explícita (só hora marcada).
+- Lido: https://sartocavalieri.com/ — hero "Descobrir", serviços, produtos, logos de marcas de tecido, "Agende uma visita", rodapé com canais e botão "Go to Top". Escassez: nenhuma.
+- Aprendido: páginas longas (início, processo, catálogo) ficam cansativas de subir no celular; um atalho de volta ao topo no fim da página devolve o cliente ao menu.
+- Adaptado: rodapé das 6 páginas ganhou o link "Voltar ao topo ↑" (href="#top", que rola até o início do documento; #topo não funcionaria porque o cabeçalho é sticky). Fora da 404, porque o <base href="/"> faria o link ir para a página inicial e a página é curta. style.css v=20. Versão 0.0.1015.
+- Descartado: regiões atendidas/bairros (não confirmados pelo Mec), números/avaliações/parcelamento (não confirmados), logos de marcas de tecido (não confirmado), calendário de vagas e "poucas vagas" (depende de escassez real do Mec), newsletter (sem backend).
+- Próximas: camisariaturquesa e difranchesco no rodízio; zegna depende de liberar o host na rede. Escassez real segue dependendo do Mec.
