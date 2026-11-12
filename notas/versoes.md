@@ -7,6 +7,9 @@ Como registrar: a entrada mais nova fica no topo, com versão, data (horário de
 
 ---
 
+## 0.0.1016 — 12/11/2026
+- **Processo (perguntas frequentes):** nova pergunta "Mais ajustado ou tradicional: qual caimento escolher?", explicando a diferença entre os dois caimentos e que no sob medida ele é definido na prova. (rotina Vittalle+ · `df2baca`)
+
 ## 0.0.1015 — 11/11/2026
 - **Rodapé (Início, Serviços, Processo, Catálogo, Portfólio e Loja):** novo link "Voltar ao topo ↑" no fim de cada página, para voltar ao menu sem precisar rolar tudo de novo no celular. (rotina Vittalle+ · `cf654bf`)
 
