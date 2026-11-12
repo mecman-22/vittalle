@@ -7,6 +7,11 @@ Como registrar: a entrada mais nova fica no topo, com versão, data (horário de
 
 ---
 
+## 0.0.1017 — 12/11/2026
+- **Navegação (computador):** a régua lateral com as marcas 0 a 50 voltou a levar a cada página também em Início, Serviços, Processo e Loja. Antes ela só funcionava no Catálogo e no Portfólio.
+- **Catálogo mais rápido:** os cartões carregam uma versão menor das fotos (550 px). Ao clicar, a foto ampliada continua a original em alta resolução. A página baixa cerca de 1,2 MB de fotos em vez de 3,1 MB.
+- **Mais suave em todas as páginas:** as seções aparecem com animação mais curta. No celular, os efeitos de passar o mouse não ficam presos depois do toque e o toque responde sem atraso. Links para um trecho da página não param mais escondidos atrás do menu. (sessão manual · `947aee6`)
+
 ## 0.0.1016 — 12/11/2026
 - **Processo (perguntas frequentes):** nova pergunta "Mais ajustado ou tradicional: qual caimento escolher?", explicando a diferença entre os dois caimentos e que no sob medida ele é definido na prova. (rotina Vittalle+ · `df2baca`)
 
