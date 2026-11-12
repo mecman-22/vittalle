@@ -8,7 +8,15 @@ document.documentElement.classList.add('js');
     }, {threshold:0.08, rootMargin:'0px 0px -40px 0px'});
     els.forEach((el,i) => { el.style.transitionDelay = ((i % 4) * 70) + 'ms'; io.observe(el); });
   })();
-  const ticks = document.querySelectorAll('.tick');
+  /* Regua lateral (desktop): cada marca leva a sua pagina em todas as paginas,
+     nao so nas que tem foto ampliada */
+  document.querySelectorAll('.tick').forEach(t => {
+    const go = () => { if(t.dataset.href) location.href = t.dataset.href; };
+    t.setAttribute('role','link');
+    t.setAttribute('tabindex','0');
+    t.addEventListener('click', go);
+    t.addEventListener('keydown', (e) => { if(e.key === 'Enter' || e.key === ' '){ e.preventDefault(); go(); } });
+  });
 
   const lightbox = document.getElementById('lightbox');
   if(lightbox){
@@ -40,11 +48,6 @@ document.documentElement.classList.add('js');
     makeActivatable(item, () => {
       const img = item.querySelector('img');
       openLightbox(item.dataset.full || img.src, item.dataset.cap || img.alt, img.alt);
-    });
-  });
-  document.querySelectorAll('.tick').forEach(t => {
-    makeActivatable(t, () => {
-      if(t.dataset.href) location.href = t.dataset.href;
     });
   });
   lbClose.addEventListener('click', closeLightbox);
