@@ -414,3 +414,11 @@
 - Adaptado: rodapé das 6 páginas ganhou o link "Voltar ao topo ↑" (href="#top", que rola até o início do documento; #topo não funcionaria porque o cabeçalho é sticky). Fora da 404, porque o <base href="/"> faria o link ir para a página inicial e a página é curta. style.css v=20. Versão 0.0.1015.
 - Descartado: regiões atendidas/bairros (não confirmados pelo Mec), números/avaliações/parcelamento (não confirmados), logos de marcas de tecido (não confirmado), calendário de vagas e "poucas vagas" (depende de escassez real do Mec), newsletter (sem backend).
 - Próximas: camisariaturquesa e difranchesco no rodízio; zegna depende de liberar o host na rede. Escassez real segue dependendo do Mec.
+
+## 2026-11-12 (69ª execução) — fontes do Mec: camisariaturquesa e difranchesco (rodízio)
+- Lido: https://www.camisariaturquesa.com.br/alfaiataria/ — seções por peça (ternos, calças, blazers, coletes) com cortes slim/tradicional, galeria de tecidos com código e filtro, rodapé com "links úteis" (cuidados, dicas, nó de gravata, tabela de medidas, dress code, FAQ), atendimento com hora marcada. Escassez: só implícita (hora marcada).
+- Lido: https://difranchesco.com/ — hero com CTA único de agendamento, 4 pilares, história, serviços (inclui linha casamentos), pop-up de canais (agenda online + WhatsApp pré-preenchido). Escassez: só prazo de atendimento 24h/48h; sem contador nem estoque.
+- Aprendido: os dois apresentam a escolha de corte (slim x tradicional) como dúvida comum antes da prova; cuidados e dress code já estavam no nosso FAQ.
+- Adaptado: FAQ de processo.html (HTML + FAQPage JSON-LD) ganhou "Mais ajustado ou tradicional: qual caimento escolher?", com explicação geral e convite para contar a ocasião no WhatsApp; sem citar prazos nem modelos não confirmados. Versão 0.0.1016.
+- Descartado: atendimento em domicílio, prazo 24h/48h, anos de loja, agenda online (não confirmados ou sem backend); tabela de medidas e códigos Super 120/140 (sem dados confirmados).
+- Próximas: ricardoalmeida e merinoalfaiataria no rodízio; zegna depende de liberar o host na rede. Escassez real segue dependendo do Mec.
