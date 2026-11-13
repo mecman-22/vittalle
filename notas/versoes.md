@@ -7,6 +7,9 @@ Como registrar: a entrada mais nova fica no topo, com versão, data (horário de
 
 ---
 
+## 0.0.1018 — 13/11/2026
+- **Loja:** no bloco de horários e pagamento, novo convite "Já fez uma peça com a gente? Conte como foi no Google", com o botão "Avaliar no Google" que abre a página da loja no Google Maps. (rotina Vittalle+ · `b1383cc`)
+
 ## 0.0.1017 — 12/11/2026
 - **Navegação (computador):** a régua lateral com as marcas 0 a 50 voltou a levar a cada página também em Início, Serviços, Processo e Loja. Antes ela só funcionava no Catálogo e no Portfólio.
 - **Catálogo mais rápido:** os cartões carregam uma versão menor das fotos (550 px). Ao clicar, a foto ampliada continua a original em alta resolução. A página baixa cerca de 1,2 MB de fotos em vez de 3,1 MB.
