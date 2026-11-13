@@ -422,3 +422,11 @@
 - Adaptado: FAQ de processo.html (HTML + FAQPage JSON-LD) ganhou "Mais ajustado ou tradicional: qual caimento escolher?", com explicação geral e convite para contar a ocasião no WhatsApp; sem citar prazos nem modelos não confirmados. Versão 0.0.1016.
 - Descartado: atendimento em domicílio, prazo 24h/48h, anos de loja, agenda online (não confirmados ou sem backend); tabela de medidas e códigos Super 120/140 (sem dados confirmados).
 - Próximas: ricardoalmeida e merinoalfaiataria no rodízio; zegna depende de liberar o host na rede. Escassez real segue dependendo do Mec.
+
+## 2026-11-13 (70ª execução) — fontes do Mec: eluiz-simas (primeira leitura bem-sucedida) e ricardoalmeida (rodízio)
+- Lido: https://eluiz-simas-alfaiataria.ueniweb.com/ — página única: menu fixo, telefone em destaque no topo, "Facilidades" (cartões, consulta), serviços com preço "a partir de", seção de avaliações do Google com botão para o cliente deixar a sua, formulário por e-mail, áreas atendidas, endereço com mapa. Sem WhatsApp nem horários. Escassez: só desconto à vista e "visite hoje"; sem contador nem estoque.
+- Lido: https://www.ricardoalmeida.com.br/ — barra de benefícios (frete/Pix), carrossel de coleções com "Conheça", blocos Casamento/Sob Medida, mega-menu, busca com termos populares, aviso de reposição, newsletter. Escassez: nenhuma real (só incentivo de pagamento e aviso de estoque).
+- Aprendido: a avaliação no Google é a prova social que pesa no SEO local; convidar o cliente que já foi atendido a deixar a sua é simples e honesto.
+- Adaptado: loja.html, no bloco de horários e pagamento, ganhou "Já fez uma peça com a gente? Conte como foi no Google" com botão "Avaliar no Google" (link do Google Maps da loja já usado no site). Não mostra nota, contagem nem depoimentos (não confirmados). style.css v=22. Versão 0.0.1018.
+- Descartado: preços "a partir de", desconto à vista, consulta grátis, áreas atendidas (não confirmados), formulário por e-mail e newsletter (sem backend), exibir avaliações/nota (não temos dados confirmados).
+- Próximas: merinoalfaiataria e flowerhomme no rodízio; zegna bloqueia acesso automático. Escassez real segue dependendo do Mec.
